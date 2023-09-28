@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.cu.gastosmerchant1.app-mergeDebugResources-61:/values-id/values-id.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\nikhi\\.gradle\\caches\\transforms-3\\475a350831d8e34f4b4432c83b4ee23b\\transformed\\jetified-zxing-android-embedded-4.1.0\\res\\values-id\\values-id.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,114,161,293",
+                        "endColumns": "58,46,131,108",
+                        "endOffsets": "109,156,288,397"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "133,192,239,371",
+                        "endColumns": "58,46,131,108",
+                        "endOffsets": "187,234,366,475"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\nikhi\\.gradle\\caches\\transforms-3\\60972636e63ec25cf00692a5c2437a27\\transformed\\jetified-play-services-wallet-18.1.3\\res\\values-id\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "73",
+                        "endOffsets": "275"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "77",
+                        "endOffsets": "128"
+                    }
+                }
+            ]
+        }
+    ]
+}

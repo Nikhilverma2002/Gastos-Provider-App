@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".registration.CashFree_Activity">
+
+
+    <ImageView
+        android:id="@+id/prev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/image"
+        android:padding="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_back" />
+
+    <TextView
+        android:id="@+id/tV_select_upi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Select UPI Method"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prev" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tV_select_upi">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.furkanakdemir.surroundcardview.SurroundCardView
+                android:id="@+id/google_pay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_card"
+                android:theme="@style/Theme.MaterialComponents.Light"
+                app:cardCornerRadius="12dp"
+                app:layout_constraintEnd_toStartOf="@+id/admin"
+                app:layout_constraintStart_toStartOf="@+id/textView2"
+                app:layout_constraintTop_toBottomOf="@+id/select"
+                app:scv_color="#3C7A79"
+                app:scv_duration="500"
+                app:scv_startPoint="top_start"
+                app:scv_surrounded="false"
+                app:scv_width="0dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawablePadding="10dp"
+                    android:padding="20dp"
+                    android:text="Google Pay"
+                    android:textColor="#313743"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:drawableLeftCompat="@drawable/ic_google_upi"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+            </com.furkanakdemir.surroundcardview.SurroundCardView>
+
+            <com.furkanakdemir.surroundcardview.SurroundCardView
+                android:id="@+id/amazon_pay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_card"
+                android:theme="@style/Theme.MaterialComponents.Light"
+                app:cardCornerRadius="12dp"
+                app:layout_constraintEnd_toStartOf="@+id/admin"
+                app:layout_constraintStart_toStartOf="@+id/textView2"
+                app:layout_constraintTop_toBottomOf="@+id/select"
+                app:scv_color="#3C7A79"
+                app:scv_duration="500"
+                app:scv_startPoint="top_start"
+                app:scv_surrounded="false"
+                app:scv_width="0dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawablePadding="10dp"
+                    android:padding="20dp"
+                    android:text="Amazon Pay"
+                    android:textColor="#313743"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:drawableLeftCompat="@drawable/ic_amazon_upi"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+            </com.furkanakdemir.surroundcardview.SurroundCardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.furkanakdemir.surroundcardview.SurroundCardView
+                android:id="@+id/phone_pay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_card"
+                android:theme="@style/Theme.MaterialComponents.Light"
+                app:cardCornerRadius="12dp"
+                app:layout_constraintEnd_toStartOf="@+id/admin"
+                app:layout_constraintStart_toStartOf="@+id/textView2"
+                app:layout_constraintTop_toBottomOf="@+id/select"
+                app:scv_color="#3C7A79"
+                app:scv_duration="500"
+                app:scv_startPoint="top_start"
+                app:scv_surrounded="false"
+                app:scv_width="0dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawablePadding="10dp"
+                    android:padding="20dp"
+                    android:text="PhonePe     "
+                    android:textColor="#313743"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:drawableLeftCompat="@drawable/ic_phonepe_upi"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+            </com.furkanakdemir.surroundcardview.SurroundCardView>
+
+            <com.furkanakdemir.surroundcardview.SurroundCardView
+                android:id="@+id/bhim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_card"
+                android:theme="@style/Theme.MaterialComponents.Light"
+                app:cardCornerRadius="12dp"
+                app:layout_constraintEnd_toStartOf="@+id/admin"
+                app:layout_constraintStart_toStartOf="@+id/textView2"
+                app:layout_constraintTop_toBottomOf="@+id/select"
+                app:scv_color="#3C7A79"
+                app:scv_duration="500"
+                app:scv_startPoint="top_start"
+                app:scv_surrounded="false"
+                app:scv_width="0dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawablePadding="10dp"
+                    android:padding="20dp"
+                    android:text="BHIM UPI      "
+                    android:textColor="#313743"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:drawableLeftCompat="@drawable/ic_bhim_upi"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+            </com.furkanakdemir.surroundcardview.SurroundCardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.furkanakdemir.surroundcardview.SurroundCardView
+                android:id="@+id/paytm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_card"
+                android:theme="@style/Theme.MaterialComponents.Light"
+                app:cardCornerRadius="12dp"
+                app:layout_constraintEnd_toStartOf="@+id/admin"
+                app:layout_constraintStart_toStartOf="@+id/textView2"
+                app:layout_constraintTop_toBottomOf="@+id/select"
+                app:scv_color="#3C7A79"
+                app:scv_duration="500"
+                app:scv_startPoint="top_start"
+                app:scv_surrounded="false"
+                app:scv_width="0dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawablePadding="10dp"
+                    android:padding="20dp"
+                    android:text="Paytm          "
+                    android:textColor="#313743"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:drawableLeftCompat="@drawable/ic_paytm"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+            </com.furkanakdemir.surroundcardview.SurroundCardView>
+
+            <com.furkanakdemir.surroundcardview.SurroundCardView
+                android:id="@+id/mobikwik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_card"
+                android:theme="@style/Theme.MaterialComponents.Light"
+                app:cardCornerRadius="12dp"
+                app:layout_constraintEnd_toStartOf="@+id/admin"
+                app:layout_constraintStart_toStartOf="@+id/textView2"
+                app:layout_constraintTop_toBottomOf="@+id/select"
+                app:scv_color="#3C7A79"
+                app:scv_duration="500"
+                app:scv_startPoint="top_start"
+                app:scv_surrounded="false"
+                app:scv_width="0dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawablePadding="10dp"
+                    android:padding="20dp"
+                    android:text="MobiKwik"
+                    android:textColor="#313743"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:drawableLeftCompat="@drawable/ic_mobikwik_upi"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+            </com.furkanakdemir.surroundcardview.SurroundCardView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tV_other_pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Other Payment Options"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <com.furkanakdemir.surroundcardview.SurroundCardView
+        android:id="@+id/collect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/bg_card"
+        android:theme="@style/Theme.MaterialComponents.Light"
+        app:cardCornerRadius="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tV_other_pay"
+        app:scv_color="#3C7A79"
+        app:scv_duration="500"
+        app:scv_startPoint="top_start"
+        app:scv_surrounded="false"
+        app:scv_width="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawablePadding="10dp"
+            android:padding="20dp"
+            android:text="Card - UPI ID - Net Banking - Wallet"
+            android:textColor="#313743"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:drawableLeftCompat="@drawable/ic_card_collect"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    </com.furkanakdemir.surroundcardview.SurroundCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

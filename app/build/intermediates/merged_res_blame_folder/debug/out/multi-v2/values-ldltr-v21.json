@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.cu.gastosmerchant1.app-mergeDebugResources-61:/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\nikhi\\.gradle\\caches\\transforms-3\\8d4712f3666c717c3b797fc55273f983\\transformed\\appcompat-1.4.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}

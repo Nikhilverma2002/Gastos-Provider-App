@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/tools"
+    android:id="@+id/view_post_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="20dp"
+    android:background="@color/white"
+    android:backgroundTint="#10B981">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <ImageView
+            android:id="@+id/back_dp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/ellipse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_ellipse2"
+            app:layout_constraintEnd_toEndOf="@+id/back_dp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/ellipse1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_ellipse4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/view"
+            android:backgroundTint="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/back_dp" />
+
+        <!--        <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/imageNote"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:adjustViewBounds="true"
+                android:backgroundTintMode="add"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:roundedCornerRadius="20dp"
+                 />-->
+
+        <ImageView
+            android:id="@+id/notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/ic_notification"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+        <ImageView
+            android:id="@+id/dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_dp"
+            android:padding="25dp"
+            android:src="@drawable/ic_shop"
+            app:layout_constraintStart_toStartOf="@+id/view"
+            app:layout_constraintTop_toTopOf="@+id/view" />
+
+
+        <ImageView
+            android:id="@+id/dp_plus"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="-25dp"
+            android:layout_marginTop="-20dp"
+            android:src="@drawable/ic_dp_plus"
+            app:layout_constraintEnd_toStartOf="@+id/textView4"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/dp"
+            app:layout_constraintTop_toBottomOf="@+id/dp" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/plusjakartasansregular"
+            android:gravity="start"
+            android:text="Cafe Bistro"
+            android:textColor="#212121"
+            android:textFontWeight="600"
+            android:textSize="32sp"
+            app:layout_constraintStart_toEndOf="@+id/dp"
+            app:layout_constraintTop_toTopOf="@+id/dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/plusjakartasansregular"
+            android:gravity="start"
+            android:text="----------------"
+            android:textColor="#909090"
+            android:textFontWeight="500"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="@+id/name"
+            app:layout_constraintTop_toBottomOf="@+id/name" />
+
+        <LinearLayout
+            android:id="@+id/layout_complete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_layout"
+            android:foregroundGravity="center"
+            android:gravity="start"
+            android:orientation="vertical"
+            android:padding="22dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dp_plus">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/plusjakartasansregular"
+                android:gravity="start"
+                android:text="@string/complete_your_profile"
+                android:textColor="#282828"
+                android:textFontWeight="700"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/plusjakartasansregular"
+                android:gravity="start"
+                android:text="@string/complete_your_profile_to_start_using_the_gastos_app"
+                android:textColor="#6F8581"
+                android:textFontWeight="500"
+                android:textSize="12sp" />
+
+
+            <TextView
+                android:id="@+id/complete_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_complete_profile"
+                android:fontFamily="@font/plusjakartasansregular"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/complete_profile"
+                android:textColor="#10B981"
+                android:textFontWeight="600"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="@+id/linearLayout2" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/gastos_member"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_layout"
+            android:foregroundGravity="center"
+            android:gravity="start"
+            android:orientation="vertical"
+            android:padding="22dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layout_complete">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/plusjakartasansregular"
+                android:gravity="start"
+                android:text="@string/become_a_gastos_marketplace_member"
+                android:textColor="#282828"
+                android:textFontWeight="700"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/plusjakartasansregular"
+                android:gravity="start"
+                android:text="@string/become_a_gastos_member_to_get_featured_on_gastos_marketplace"
+                android:textColor="#6F8581"
+                android:textFontWeight="500"
+                android:textSize="12sp" />
+
+
+            <TextView
+                android:id="@+id/marketplace_member"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_gastos_market"
+                android:fontFamily="@font/plusjakartasansregular"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/subscribe_to_marketplace_membership"
+                android:textColor="#10B981"
+                android:textFontWeight="600"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="@+id/linearLayout2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/double_dhamaka"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_layout"
+            android:foregroundGravity="center"
+            android:gravity="start"
+            android:orientation="vertical"
+            android:paddingTop="22dp"
+            android:paddingStart="22dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gastos_member">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/plusjakartasansregular"
+                android:gravity="start"
+                android:text="@string/double_dhamaka_offer"
+                android:textColor="#282828"
+                android:textFontWeight="700"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/plusjakartasansregular"
+                android:gravity="start"
+                android:text="@string/accept_payment_on_google_pay_for_business_qr_to_win_weekly_cashbacks"
+                android:textColor="#ADADAD"
+                android:textFontWeight="500"
+                android:textSize="12sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/plusjakartasansregular"
+                android:gravity="start"
+                android:text="Check Out!"
+                android:textColor="#10B981"
+                android:textFontWeight="600"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="@+id/linearLayout2" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="10dp"
+                android:layout_marginTop="-40dp"
+                android:layout_marginBottom="1dp"
+                app:cardElevation="0dp"
+                android:layout_gravity="end"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/image"
+                    android:src="@drawable/india" />
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/heading2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/plusjakartasansregular"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@id/double_dhamaka"
+            app:layout_constraintStart_toStartOf="@+id/double_dhamaka"
+            android:gravity="start"
+            android:textStyle="bold"
+            android:text="@string/recent_payment"
+            android:textColor="#181818"
+            android:textFontWeight="700"
+            android:textSize="18sp"
+            />
+
+
+        <TextView
+            android:id="@+id/no_payment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_layout"
+            android:fontFamily="@font/plusjakartasansregular"
+            android:gravity="center"
+            android:padding="15dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/no_payments_yet"
+            android:textColor="#222222"
+            android:textFontWeight="600"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/double_dhamaka"
+            app:layout_constraintStart_toStartOf="@+id/heading2"
+            app:layout_constraintTop_toBottomOf="@+id/heading2" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+

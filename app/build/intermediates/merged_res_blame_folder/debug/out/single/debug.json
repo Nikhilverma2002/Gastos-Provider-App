@@ -1,0 +1,2542 @@
+[
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_info_img.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/info_img.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_qr_item.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/qr_item.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_test2.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/test2.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable-hdpi_ic_indian_rupee_symbol.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable-hdpi/ic_indian_rupee_symbol.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_s_banner_1.jpg.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/s_banner_1.jpg"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_select_services.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/select_services.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_group_5469_rateus.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_group_5469_rateus.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_new_home.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/new_home.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_delete.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/delete.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_flag.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_flag.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_location.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_location.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_add.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_share.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_share.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_people.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_people.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_pymnt_succs.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/pymnt_succs.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_commission.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_commission.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_gpng.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/gpng.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_dissatisfied.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/dissatisfied.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_building.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_building.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_membership.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_membership.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bhim.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bhim.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_sms_grp.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_sms_grp.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_campaign_payment.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/campaign_payment.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bg_bharatpay.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bg_bharatpay.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_other_upi_mini_qr.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/other_upi_mini_qr.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_pymtdialog.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_pymtdialog.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_roundview.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/roundview.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable-anydpi_backy.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable-anydpi/backy.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_back.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_back.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_wallet_img.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_wallet_img.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_intro_page.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_intro_page.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_recthelper.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/recthelper.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_select_banner_design.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/select_banner_design.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable-hdpi_ic_unchecked.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable-hdpi/ic_unchecked.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_save_bg.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/save_bg.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_group_582.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/group_582.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_user_rv_item.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/user_rv_item.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ellipse_55.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ellipse_55.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_greenrectbtn.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/greenrectbtn.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable-hdpi_indicator_selector.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable-hdpi/indicator_selector.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_generate_qr.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_generate_qr.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_post_ads.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_post_ads.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_white_rectangle.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_white_rectangle.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_book_legals.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_book_legals.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_rectangle_01.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/rectangle_01.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_bill_payment.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/bill_payment.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable-v24_rectangle_232.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable-v24/rectangle_232.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_googlepay_mini_qr.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/googlepay_mini_qr.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_long_left.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/long_left.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_select_promotion.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/select_promotion.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_succes_icons.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_succes_icons.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_logout.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_logout.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_amazon_upi_mini_qr.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/amazon_upi_mini_qr.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_payment_done.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_payment_done.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_group_5471_add_tick.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_group_5471_add_tick.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_rupee_sign.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/rupee_sign.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_backy.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/backy.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_q_r_scanner.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_q_r_scanner.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_dialog_camera.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/dialog_camera.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_gradient.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/gradient.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_wp_ad.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/wp_ad.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_pos_qr.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_pos_qr.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bg_home_linear.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bg_home_linear.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_choose_membership.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/choose_membership.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_my_designs_approve.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/my_designs_approve.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_verify.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_verify.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_deliveryimg.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/deliveryimg.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/font_futurapt_medium.ttf.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/font/futurapt_medium.ttf"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_phone.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_phone.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_shop_setting.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_shop_setting.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_google_upi.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_google_upi.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_manage_design.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_manage_design.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_menu_vertical.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_menu_vertical.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_rectangle2.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/rectangle2.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable-v24_ic_question_icon1.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable-v24/ic_question_icon1.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_payment_web.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_payment_web.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_setting_item_layout.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/setting_item_layout.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_provider_wallet.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_provider_wallet.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_orange_rectangle.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_orange_rectangle.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ellip_60.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ellip_60.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_budget.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_budget.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_questionmark.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_questionmark.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_view_qr.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/view_qr.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_ellipse2.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_ellipse2.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bg_card.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bg_card.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_payment_failure_gradient.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/payment_failure_gradient.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_borderbottomround.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/borderbottomround.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_circle_check.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_circle_check.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/font_roboto_bold.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/font/roboto_bold.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_campaign_bill_payment.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/campaign_bill_payment.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_thumb_switch.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/thumb_switch.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_dialog_picture_capture.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/dialog_picture_capture.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_logout_alert_dialog.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/logout_alert_dialog.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_dotted.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/dotted.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_static_qr.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/static_qr.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_baseline_delete_24.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_baseline_delete_24.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_plus_setting.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_plus_setting.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_settings1.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_settings1.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_receipt.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_receipt.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_g_vector.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/g_vector.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_shop_address.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/shop_address.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_ellipse_45.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_ellipse_45.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_rectangle_20.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_rectangle_20.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_line_7.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/line_7.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_tasksq.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_tasksq.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_gpay.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/gpay.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bank.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bank.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_my_ellipse_shape.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/my_ellipse_shape.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_settings.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_scan.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/scan.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_search_manage_ad.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_search_manage_ad.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_copy.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_copy.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_notification.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_notification.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_money_mode.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/money_mode.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_upi.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/upi.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_rectangle126.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/rectangle126.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_mydesign.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_mydesign.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_recvd_paymt.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_recvd_paymt.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_group.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/group.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_left_arrow_icon.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_left_arrow_icon.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_green_gradient.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/green_gradient.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_track.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/track.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bg_save.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bg_save.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_notification.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/notification.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_ellipse.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_ellipse.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_user_octagon.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_user_octagon.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_rectangle_earnview_2.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/rectangle_earnview_2.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable-v24_ic_card_icon2.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable-v24/ic_card_icon2.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ellipse_57.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ellipse_57.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_qr_code_scan.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_qr_code_scan.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_view.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/view.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_month_m.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_month_m.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_tri_flag.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/tri_flag.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_payment_successful.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/payment_successful.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_baseline_keyboard_backspace_24.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_baseline_keyboard_backspace_24.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_rectangle_2.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/rectangle_2.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_dhamaka.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_dhamaka.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_provider_wallet.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/provider_wallet.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_amazon_upi.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_amazon_upi.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable-v24_rounded_corners.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable-v24/rounded_corners.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/font_lato.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/font/lato.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_cancel_background.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/cancel_background.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_user_agreement.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/user_agreement.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_forw.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/forw.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_phone_authentication.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_phone_authentication.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_locate.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/locate.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bg_gastos_market.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bg_gastos_market.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_logout_back.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/logout_back.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_add_discount.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/add_discount.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_group_536.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/group_536.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_membership_status.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_membership_status.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_line.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/line.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_layout_dialog.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/layout_dialog.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/font_plusjakartadisplaymedium.otf.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/font/plusjakartadisplaymedium.otf"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_paytmlogo.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/paytmlogo.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_box_rect.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/box_rect.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_card_icon1.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_card_icon1.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_payment_loading.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/payment_loading.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_logo_full.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_logo_full.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_baseline_edit_24.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_baseline_edit_24.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_continue_arrow.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_continue_arrow.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_rect_2.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/rect_2.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable-v24_reseopt.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable-v24/reseopt.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_adds.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/adds.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_nqr.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/nqr.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_local_offer_24px.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/local_offer_24px.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_prof_rec.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/prof_rec.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_generate_qr.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/generate_qr.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_rectangle_1.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/rectangle_1.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_banner3.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/banner3.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_registration_pay.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_registration_pay.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_my_promotion.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/my_promotion.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_shop_card.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/shop_card.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_layer_14.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/layer_14.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_phone_pay.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/phone_pay.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_generate_qr.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/generate_qr.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_btn_bg.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/btn_bg.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bharatpe_mini_qr.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bharatpe_mini_qr.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_group_13.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_group_13.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bg_content_stroke.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bg_content_stroke.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_smspro.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/smspro.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_setpin.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_setpin.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_circle_chevron_right.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/circle_chevron_right.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_singlerownewscreen.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/singlerownewscreen.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bg_rate.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bg_rate.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_img.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/img.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_chevronblackleft.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/chevronblackleft.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_shop_cover.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/shop_cover.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_my_discount.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/my_discount.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_user_back.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/user_back.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_smallplus.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/smallplus.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_log_out.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_log_out.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_pymnt_failed.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/pymnt_failed.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_logo_green.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_logo_green.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_frame.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/frame.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_card_2.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/card_2.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_logo_splash.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/logo_splash.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_group_550.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_group_550.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_temps.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/temps.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_membership_status.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/membership_status.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_content_view.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/content_view.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable-hdpi_selected_indicator.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable-hdpi/selected_indicator.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable-hdpi_start_button_shape.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable-hdpi/start_button_shape.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_hweb.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/hweb.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_post_ad_banner.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/post_ad_banner.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bg_content_stroke_inactive.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bg_content_stroke_inactive.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_map.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_map.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bg_next.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bg_next.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_applogoicon.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/applogoicon.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_payment.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/payment.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_creditcard.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/creditcard.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_circle.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/circle.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_select_package.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/select_package.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_discount_item.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/discount_item.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_rrectangle_147.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/rrectangle_147.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_branding_wallet.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_branding_wallet.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_payment_status.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_payment_status.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable-anydpi_ic_unchecked.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable-anydpi/ic_unchecked.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/font_plusjakartasansmedium.ttf.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/font/plusjakartasansmedium.ttf"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_card_sim.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/card_sim.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_banner1.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/banner1.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_bottomsheet_dialog.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/bottomsheet_dialog.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bg_bill_amt.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bg_bill_amt.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_location_on_24px.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/location_on_24px.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_dialog_report.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/dialog_report.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_gatos_logo_payment.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/gatos_logo_payment.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_plus.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_plus.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_mem_bg.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/mem_bg.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_chevron_big_right.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/chevron_big_right.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bg_level_txt.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bg_level_txt.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_info.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_info.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_banner_ad_payment_full.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/banner_ad_payment_full.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_item_pager.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/item_pager.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bg_discount_card.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bg_discount_card.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_profile.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_profile.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_home_icon1.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_home_icon1.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_thumb.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/thumb.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_glogo.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/glogo.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_connect.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/connect.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_gpay.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_gpay.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/font_roboto.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/font/roboto.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_hpdialog.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/hpdialog.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_cancel_line.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/cancel_line.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_user_agreement.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_user_agreement.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_baseline_notifications_24.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_baseline_notifications_24.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_logo.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_logo.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_rectangle_236.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/rectangle_236.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_user.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_user.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/font_futura_pt_book.ttf.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/font/futura_pt_book.ttf"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_wallet.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_wallet.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_year_cut.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_year_cut.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ellipse_59.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ellipse_59.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_black_rectangle.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_black_rectangle.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_vector_line.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/vector_line.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_blur_background.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/blur_background.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_campaign_cost.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/campaign_cost.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable-mdpi_bg_layout.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable-mdpi/bg_layout.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_report_an_issue.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/report_an_issue.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_month_cut.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_month_cut.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_acc_image_icon.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/acc_image_icon.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_info_square_setting.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_info_square_setting.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_baseline_done_24.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_baseline_done_24.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable-anydpi_loader_one.gif.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable-anydpi/loader_one.gif"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_new_campaign_details.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/new_campaign_details.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_profile1.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_profile1.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_app_logo_background.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/app_logo_background.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bg_dialog_layout.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bg_dialog_layout.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_textlayout.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/textlayout.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_searchbasic.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/searchbasic.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_img_store.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/img_store.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_refer_earn_page.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/refer_earn_page.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_banner2.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/banner2.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_img_gastos.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/img_gastos.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_edit.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/edit.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_gicon.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/gicon.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_greenadd.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/greenadd.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_ar_right.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_ar_right.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_privacy_policy_web.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_privacy_policy_web.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_amazonpay.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/amazonpay.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_back_white.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_back_white.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_otp_verification_box.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/otp_verification_box.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_line_32.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/line_32.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_phonepe_mini_qr.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/phonepe_mini_qr.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bg_active.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bg_active.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_shopplus.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/shopplus.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_cafe.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/cafe.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_help.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/help.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_recent_payment_card.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/recent_payment_card.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_co_img.jpg.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/co_img.jpg"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_banner_ad_payment_discount.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/banner_ad_payment_discount.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_filtt.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/filtt.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_scan_barcode.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_scan_barcode.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_emoji_sad.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_emoji_sad.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_faqs.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/faqs.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bhim_upi_mini_qr.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bhim_upi_mini_qr.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_new_custom_thumb.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/new_custom_thumb.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_baseline_keyboard_arrow_down_25.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_baseline_keyboard_arrow_down_25.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_guide.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/guide.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_airtelpay.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/airtelpay.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_menu_board.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_menu_board.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_unselect_radio.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_unselect_radio.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ovalbtn.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ovalbtn.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_line_19.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/line_19.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_arrow_long_.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/arrow_long_.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_terms_of_service.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/terms_of_service.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_settings.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_rectangle154.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/rectangle154.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bg_stroke.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bg_stroke.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_green_rectangle.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_green_rectangle.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bg_complete_profile.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bg_complete_profile.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_about_us.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_about_us.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_provider_wallet.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_provider_wallet.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bg_green.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bg_green.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_dialog_primary.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/dialog_primary.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_pageforward.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/pageforward.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable-hdpi_back.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable-hdpi/back.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_info_circle_outline.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/info_circle_outline.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable-hdpi_arrow_back_24.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable-hdpi/arrow_back_24.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_registration_payment.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_registration_payment.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_red_gradient.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/red_gradient.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ok.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ok.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_unedited_profile_details.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/unedited_profile_details.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_profile_icon1.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_profile_icon1.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_received_payments.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_received_payments.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_boxround.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/boxround.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_radio_mem_on.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_radio_mem_on.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_group_5470_buy_shop.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_group_5470_buy_shop.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_dialog_rate.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/dialog_rate.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_rectangle_7.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/rectangle_7.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_tab_background_unselected.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/tab_background_unselected.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_mem_place.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_mem_place.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_add_qr.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_add_qr.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_discount.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/discount.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_layout_item_commision.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/layout_item_commision.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_hashtag.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_hashtag.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable-hdpi_unselected_indicator.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable-hdpi/unselected_indicator.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ellipse_56.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ellipse_56.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_basic_details.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_basic_details.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_custom_thumb.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/custom_thumb.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bg_down.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bg_down.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/font_abhaya_libre_medium.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/font/abhaya_libre_medium.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_trending.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/trending.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_rectangle211.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/rectangle211.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_profile2.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_profile2.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_downlaod_setting.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_downlaod_setting.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_shop_rec.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/shop_rec.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_margindialog.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/margindialog.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bottom_nav_selector.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bottom_nav_selector.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_success.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_success.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_gpay_phonepe_paytm_bhim.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/gpay_phonepe_paytm_bhim.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_close.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_close.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_line_51.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/line_51.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_refer_and_earn.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_refer_and_earn.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_set_primary_back.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/set_primary_back.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_s_banner_2.jpg.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/s_banner_2.jpg"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_right.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_right.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_down.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_down.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_flag.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/flag.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_rectangle1.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/rectangle1.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_home_fill.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/home_fill.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_test1.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/test1.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_add_user.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_add_user.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable-anydpi_loader.gif.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable-anydpi/loader.gif"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_provider_wallet2.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_provider_wallet2.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_blue_rectangle.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_blue_rectangle.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/font_lato_regular.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/font/lato_regular.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bg_price.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bg_price.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_dialog_btn_bg.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/dialog_btn_bg.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_oval.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/oval.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_google_pay.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/google_pay.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_card_collect.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_card_collect.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_rectangle_3.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/rectangle_3.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_upload.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_upload.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_help_and_support.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/help_and_support.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_help_centre.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_help_centre.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_paytm.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_paytm.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_newhomebackground.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/newhomebackground.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_my_design.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/my_design.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_chart.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_chart.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_chevronleft.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/chevronleft.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_done.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_done.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/font_plusjakartadisplaybold.otf.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/font/plusjakartadisplaybold.otf"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_privacy_policy.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/privacy_policy.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_ellipse_44.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_ellipse_44.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ellipse_58.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ellipse_58.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_pay_screen.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_pay_screen.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_layout_payments.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/layout_payments.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_india.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/india.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_map_24px.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/map_24px.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_img_circular.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/img_circular.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_bill_payment.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_bill_payment.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_phonepe_upi.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_phonepe_upi.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_grevieance_policy.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/grevieance_policy.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_line1.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/line1.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_splash.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/splash.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_billing_coins_btn.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/billing_coins_btn.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_hline.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/hline.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_contact_us.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_contact_us.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_report_problem.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_report_problem.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_setting_card_layour.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/setting_card_layour.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bg_phone.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bg_phone.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_code_line.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/code_line.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_checkmark.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_checkmark.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable-anydpi_gs.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable-anydpi/gs.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_stroke_select.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/stroke_select.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_refer_and_earn.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/refer_and_earn.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_drop_down.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_drop_down.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_loading_gastos.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/loading_gastos.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_payment_circle.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/payment_circle.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_folder_setting.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_folder_setting.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_airtel_mini_qr.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/airtel_mini_qr.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_branding.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_branding.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_morebutton.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/morebutton.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/font_futura_pt_book_oblique.ttf.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/font/futura_pt_book_oblique.ttf"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_qr_code_svgrepo_com_1_generate_qr.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_qr_code_svgrepo_com_1_generate_qr.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_recback.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/recback.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable-xhdpi_ic_unchecked.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable-xhdpi/ic_unchecked.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_amount_back.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/amount_back.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_button_back.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/button_back.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_stroke.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/stroke.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/font_archivo_regular.ttf.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/font/archivo_regular.ttf"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_lock.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_lock.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_group_5459_about.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_group_5459_about.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_group_1000001853_manage_desgin.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_group_1000001853_manage_desgin.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_my_promotion.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_my_promotion.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_path.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/path.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_main.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_rectange_seekbat_thumb.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/rectange_seekbat_thumb.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_primary.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/primary.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_active.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_active.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_dialog_payment_info.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/dialog_payment_info.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bg_dark_green.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bg_dark_green.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_select_content.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/select_content.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_year_yr.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_year_yr.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_inactive.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_inactive.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_payment_success_gradient.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/payment_success_gradient.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_home.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_cafe_bistro.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/cafe_bistro.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_qrview.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/qrview.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_cash_free.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_cash_free.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_myphone.jpg.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/myphone.jpg"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_amazon.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/amazon.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_alertdialog_setprimary.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/alertdialog_setprimary.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_border_rect.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/border_rect.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bg_cam_rate.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bg_cam_rate.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_baseline_call_24.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_baseline_call_24.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_demo_message.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_demo_message.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bg_primary_dialog.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bg_primary_dialog.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_sms_grp.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/sms_grp.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_paytm.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/paytm.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_addqrbutton.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/addqrbutton.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_message_question.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_message_question.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_pen_stroke_icon.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_pen_stroke_icon.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_card.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/card.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_paytm_mini_qr.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/paytm_mini_qr.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_ad_payment.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_ad_payment.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_terms_of_service.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_terms_of_service.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_ellipse3.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_ellipse3.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bg_sure.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bg_sure.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_qr_code_scanner.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/qr_code_scanner.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_confirmation.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_confirmation.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_request_design.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_request_design.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_updated_home.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/updated_home.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_pushnotification.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/pushnotification.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_category.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_category.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_logo_1.jpg.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/logo_1.jpg"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_rectangle02.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/rectangle02.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_group_13__1_.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_group_13__1_.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/font_futurapt_light.ttf.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/font/futurapt_light.ttf"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_logo.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/logo.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/font_plusjakartatextregular.otf.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/font/plusjakartatextregular.otf"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_logo_full_white.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_logo_full_white.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_cb_selector.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/cb_selector.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_curved_button.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/curved_button.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_wallet_2.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_wallet_2.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_qr_gastos.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/qr_gastos.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_myfilter.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/myfilter.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_promo.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/promo.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable-xxhdpi_ic_unchecked.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable-xxhdpi/ic_unchecked.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_mockup.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/mockup.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_custom_seekbar.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/custom_seekbar.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_tab_background.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/tab_background.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_circle_payments_bg.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/circle_payments_bg.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_paytmpay.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/paytmpay.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_check_white.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_check_white.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_sheet_background.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/sheet_background.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_ticket_discount.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_ticket_discount.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_shop.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_shop.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable-mdpi_recback2.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable-mdpi/recback2.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_scanner.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/scanner.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_settings.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/settings.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_near_me_24px.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/near_me_24px.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_baseline_refresh_24.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_baseline_refresh_24.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/font_plusjakartasansbold.ttf.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/font/plusjakartasansbold.ttf"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable-v24_ic_log_out1.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable-v24/ic_log_out1.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_new_welcome.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/new_welcome.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_qr_layout.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/qr_layout.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_slider.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/slider.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_layer_3.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/layer_3.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/font_futurapt_demi.ttf.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/font/futurapt_demi.ttf"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_password.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_password.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bg_dark_green_curve.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bg_dark_green_curve.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable-anydpi_gsto.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable-anydpi/gsto.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_dp_plus.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_dp_plus.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_about_gastos.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/about_gastos.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_continue_forward.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_continue_forward.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_paper_setting.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_paper_setting.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_logo_layer9.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/logo_layer9.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_roundedbutton.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/roundedbutton.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_user_octagon2.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_user_octagon2.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_document_setting.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_document_setting.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_debitcard.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/debitcard.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_credit_card_24px.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/credit_card_24px.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_email.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_email.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_gallery.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_gallery.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable-v24_ic_info_icon1.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable-v24/ic_info_icon1.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_rectange_6.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/rectange_6.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_rec_1.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/rec_1.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_bhim_upi.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_bhim_upi.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_setting.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_setting.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_new_select_package.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/new_select_package.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_cross.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_cross.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_about_us.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/about_us.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_border_react_2.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/border_react_2.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_pymt_info.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_pymt_info.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_paymentbuttonbordr.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/paymentbuttonbordr.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_coolicon.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_coolicon.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/font_plusjakartasansregular.ttf.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/font/plusjakartasansregular.ttf"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_profile_details.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/profile_details.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_border_shadow.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/border_shadow.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_ellipse4.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_ellipse4.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_post_audience.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_post_audience.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable-v24_ic_circle_arrow1.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable-v24/ic_circle_arrow1.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_getotp.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_getotp.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_manage_ads.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_manage_ads.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bg_story_dim.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bg_story_dim.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/font_roboto_thin.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/font/roboto_thin.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_shadow_rect.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/shadow_rect.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_group_5437_help.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_group_5437_help.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_line_21.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_line_21.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_delivery.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_delivery.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_cross.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/cross.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_receipt.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/receipt.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_ellipse_1109.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_ellipse_1109.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable-anydpi_gastos.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable-anydpi/gastos.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_rectangle_233.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/rectangle_233.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_receipt_dark.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/receipt_dark.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_googlepaylogo.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/googlepaylogo.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bg_home_curve.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bg_home_curve.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_forward.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_forward.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_payment_detail.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/payment_detail.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_payment.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_payment.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_layer_2.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_layer_2.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_group_1000001853_manage_ads_noads.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_group_1000001853_manage_ads_noads.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_search_back.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/search_back.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_bharatpay.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_bharatpay.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_story_ad.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/story_ad.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_forward2.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_forward2.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_acc_settings.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_acc_settings.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/font_futurapt_bold.ttf.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/font/futurapt_bold.ttf"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_receipt_image.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/receipt_image.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable-v24_addbtn.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable-v24/addbtn.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_setting_wallet.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_setting_wallet.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/xml_file_provider.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/xml/file_provider.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_account_stroke_icon.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_account_stroke_icon.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_paymentbutton.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/paymentbutton.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bg_layout_curve.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bg_layout_curve.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_layer_3.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_layer_3.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bg_discount.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bg_discount.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bg_stroke_paymts.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bg_stroke_paymts.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/font_lato_thin.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/font/lato_thin.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_payment_status2.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_payment_status2.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_image_holder.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_image_holder.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_branding.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/branding.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_pickupimg.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/pickupimg.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_sketch.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/sketch.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_received_payments.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/received_payments.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_validate_btn.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/validate_btn.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_ad_content.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_ad_content.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable-anydpi_ic_checked.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable-anydpi/ic_checked.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bg_services.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bg_services.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_right_arrow.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_right_arrow.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_vector_horizontal.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/vector_horizontal.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_rect.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/rect.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_s_banner_3.jpg.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/s_banner_3.jpg"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_qinfo.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_qinfo.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_unedited_home.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/unedited_home.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_transaction_details.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/transaction_details.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_star.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_star.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_prof.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/prof.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_user_square.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_user_square.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bg_inactive.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bg_inactive.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_toggle_switch.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/toggle_switch.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_logo_grp.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_logo_grp.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_my_discount.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_my_discount.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_activity_onboarded.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_onboarded.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_mobikwik_upi.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_mobikwik_upi.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_dim_bg.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/dim_bg.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_phonepelogo.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/phonepelogo.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_rectangle_532.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/rectangle_532.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable-mdpi_ic_unchecked.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable-mdpi/ic_unchecked.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_baseline_arrow_forward_24.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_baseline_arrow_forward_24.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_emoji_happy.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_emoji_happy.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/layout_qr_codes.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/qr_codes.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_manage_qr.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_manage_qr.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_frame.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_frame.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_checkboxround.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/checkboxround.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_clipboard.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_clipboard.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_smspromo.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/smspromo.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_phonepay.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/phonepay.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_strokeone.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/strokeone.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_bg_dp.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/bg_dp.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_googlepay.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/googlepay.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_tick.png.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/tick.png"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_tab_background_selected.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/tab_background_selected.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_red_rectangle.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_red_rectangle.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-merged_res-63:/drawable_ic_baseline_chevron_right_24.xml.flat",
+        "source": "com.cu.gastosmerchant1.app-main-65:/drawable/ic_baseline_chevron_right_24.xml"
+    }
+]

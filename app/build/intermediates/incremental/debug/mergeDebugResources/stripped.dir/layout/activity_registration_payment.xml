@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registration.RegistrationPaymentActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginBottom="105dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/prev_btn_reg_pay"
+                android:layout_height="32dp"
+                android:layout_width="32dp"
+                android:layout_marginTop="25dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/title_reg_pay"
+                app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/long_left" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Registration Payment"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:fontFamily="@font/futura_pt_book"
+                android:layout_margin="20dp"
+                android:id="@+id/title_reg_pay"
+                app:layout_constraintRight_toRightOf="parent"
+                android:textColor="#004445"
+                android:textSize="25sp"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:id="@+id/card_reg_pay"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="10dp"
+                android:padding="10dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/title_reg_pay">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Welcome Pack"
+                        android:textSize="18sp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/futurapt_medium"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        android:gravity="center"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:id="@+id/tV_welcomePack"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Registration Cost"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/tV_welcomePack"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/tV_payment_service_charge"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rs.99"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/futurapt_medium"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/tV_welcomePack"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/tV_pay_service_charge"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GST"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tV_payment_service_charge"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/tV_payment_gst"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rs.17.82"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/futurapt_medium"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tV_pay_service_charge"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/tV_pay_gst"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Promo Code Discount"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tV_payment_gst"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/tV_payment_savings"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rs.0"
+                        android:textColor="#79BF2E"
+                        android:fontFamily="@font/futurapt_medium"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tV_pay_gst"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/tV_pay_savings"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total Amount"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tV_payment_savings"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/tV_payment_total"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rs.116.82"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/futurapt_medium"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tV_pay_savings"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/tV_pay_total"/>
+
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select UPI Method"
+                app:layout_constraintTop_toBottomOf="@+id/card_reg_pay"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_margin="20dp"
+                android:fontFamily="@font/futurapt_medium"
+                android:textColor="@color/gastos_green"
+                android:id="@+id/tV_select_upi"
+                android:textSize="20sp"/>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tV_select_upi"
+                        android:id="@+id/card_phonepe"
+                        app:cardCornerRadius="10dp">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:scaleType="centerCrop"
+                                app:layout_constraintLeft_toLeftOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                android:id="@+id/iV_phonepe"
+                                android:src="@drawable/phonepelogo"/>
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content"
+                                app:layout_constraintTop_toBottomOf="@+id/iV_phonepe"
+                                app:cardBackgroundColor="#673AB7"
+                                app:layout_constraintLeft_toLeftOf="parent"
+                                app:layout_constraintRight_toRightOf="parent"
+                                app:cardCornerRadius="10dp">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:gravity="center"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="Phonepe"
+                                    android:textSize="12sp"
+                                    android:textColor="@color/white"
+                                    android:fontFamily="@font/futurapt_medium"
+                                    android:padding="5dp"/>
+                            </androidx.cardview.widget.CardView>
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                app:cardBackgroundColor="#65C466"
+                app:cardCornerRadius="10dp"
+                android:visibility="gone"
+                app:layout_constraintRight_toRightOf="@+id/card_phonepe"
+                app:layout_constraintTop_toBottomOf="@id/tV_select_upi"
+                android:layout_marginTop="20dp"
+                android:id="@+id/phonepe_selected"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_check_white">
+
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:id="@+id/card_paytm"
+                        app:layout_constraintLeft_toRightOf="@id/card_phonepe"
+                        app:layout_constraintTop_toBottomOf="@+id/tV_select_upi"
+                        app:cardCornerRadius="10dp">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:scaleType="centerCrop"
+                                app:layout_constraintLeft_toLeftOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                android:id="@+id/iV_paytm"
+                                android:src="@drawable/paytmlogo"/>
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content"
+                                app:layout_constraintTop_toBottomOf="@+id/iV_paytm"
+                                app:cardBackgroundColor="#073070"
+                                app:layout_constraintLeft_toLeftOf="parent"
+                                app:layout_constraintRight_toRightOf="parent"
+                                app:cardCornerRadius="10dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:gravity="center"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="Paytm"
+                                    android:layout_gravity="center"
+                                    android:textSize="12sp"
+                                    android:textColor="@color/white"
+                                    android:fontFamily="@font/futurapt_medium"
+                                    android:padding="5dp"/>
+
+                            </androidx.cardview.widget.CardView>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                app:cardBackgroundColor="#65C466"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintRight_toRightOf="@+id/card_paytm"
+                app:layout_constraintTop_toBottomOf="@id/tV_select_upi"
+                android:layout_marginTop="20dp"
+                android:id="@+id/paytm_selected"
+                android:visibility="gone"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_check_white">
+
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:id="@+id/card_googlepay"
+                        app:layout_constraintLeft_toRightOf="@id/card_paytm"
+                        app:layout_constraintTop_toBottomOf="@+id/tV_select_upi"
+                        app:cardCornerRadius="10dp">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:scaleType="centerCrop"
+                                app:layout_constraintLeft_toLeftOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                android:id="@+id/iV_googlepay"
+                                android:src="@drawable/googlepaylogo"/>
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content"
+                                app:layout_constraintTop_toBottomOf="@+id/iV_googlepay"
+                                app:cardBackgroundColor="#6E7BF2"
+                                app:layout_constraintLeft_toLeftOf="parent"
+                                app:layout_constraintRight_toRightOf="parent"
+                                app:cardCornerRadius="10dp">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:gravity="center"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_gravity="center"
+                                    android:layout_height="wrap_content"
+                                    android:text="Google Pay"
+                                    android:textSize="12sp"
+                                    android:textColor="@color/white"
+                                    android:fontFamily="@font/futurapt_medium"
+                                    android:padding="5dp"/>
+                            </androidx.cardview.widget.CardView>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                app:cardBackgroundColor="#65C466"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintRight_toRightOf="@+id/card_googlepay"
+                app:layout_constraintTop_toBottomOf="@id/tV_select_upi"
+                android:visibility="gone"
+                android:layout_marginTop="20dp"
+                android:id="@+id/googlepay_selected"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_check_white">
+
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:id="@+id/card_bhim"
+                        app:layout_constraintLeft_toRightOf="@id/card_googlepay"
+                        app:layout_constraintTop_toBottomOf="@+id/tV_select_upi"
+                        app:cardCornerRadius="10dp">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:scaleType="centerInside"
+                                app:layout_constraintLeft_toLeftOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                android:id="@+id/iV_bhim"
+                                android:src="@drawable/bhim"/>
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content"
+                                app:layout_constraintTop_toBottomOf="@+id/iV_bhim"
+                                app:cardBackgroundColor="#028C3C"
+                                app:layout_constraintLeft_toLeftOf="parent"
+                                app:layout_constraintRight_toRightOf="parent"
+                                app:cardCornerRadius="10dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:gravity="center"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_gravity="center"
+                                    android:layout_height="wrap_content"
+                                    android:text="BHIM"
+                                    android:textSize="12sp"
+                                    android:textColor="@color/white"
+                                    android:fontFamily="@font/futurapt_medium"
+
+                                    android:padding="5dp"/>
+
+                            </androidx.cardview.widget.CardView>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                app:cardBackgroundColor="#65C466"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintRight_toRightOf="@+id/card_bhim"
+                app:layout_constraintTop_toBottomOf="@id/tV_select_upi"
+                android:layout_marginTop="20dp"
+                android:id="@+id/bhim_selected"
+                android:visibility="gone"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_check_white">
+
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Other Payment Options"
+                app:layout_constraintTop_toBottomOf="@+id/card_phonepe"
+                android:layout_margin="20dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:fontFamily="@font/futurapt_medium"
+                android:textSize="20sp"
+                android:id="@+id/tV_other_pay"
+                android:textColor="@color/gastos_green"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tV_other_pay"
+                android:id="@+id/card_debit"
+                app:cardCornerRadius="10dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="60dp"
+                        android:scaleType="centerInside"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:id="@+id/iV_debit"
+                        android:src="@drawable/debitcard"/>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toBottomOf="@+id/iV_debit"
+                        app:cardBackgroundColor="#2D796D"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:cardCornerRadius="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:gravity="center"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_height="wrap_content"
+                            android:text="Debit/ATM Card"
+                            android:textSize="12sp"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/futurapt_medium"
+                            android:padding="5dp"/>
+
+                    </androidx.cardview.widget.CardView>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                app:cardBackgroundColor="#65C466"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintRight_toRightOf="@+id/card_debit"
+                app:layout_constraintTop_toBottomOf="@id/tV_other_pay"
+                android:layout_marginTop="20dp"
+                android:visibility="gone"
+                android:id="@+id/debit_selected"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_check_white">
+
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                app:layout_constraintLeft_toRightOf="@+id/card_debit"
+                app:layout_constraintTop_toBottomOf="@+id/tV_other_pay"
+                android:id="@+id/card_credit"
+                app:cardCornerRadius="10dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="60dp"
+                        android:scaleType="centerInside"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:id="@+id/iV_credit"
+                        android:src="@drawable/creditcard"/>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toBottomOf="@+id/iV_credit"
+                        app:cardBackgroundColor="#FFCC00"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:cardCornerRadius="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:gravity="center"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            app:layout_constraintTop_toBottomOf="@+id/iV_credit"
+                            android:layout_height="wrap_content"
+                            android:text="Credit Card"
+                            android:layout_gravity="center"
+                            android:textSize="12sp"
+                            android:textColor="@color/white"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent"
+                            android:fontFamily="@font/futurapt_medium"
+                            android:padding="5dp"/>
+
+                    </androidx.cardview.widget.CardView>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                app:cardBackgroundColor="#65C466"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintRight_toRightOf="@+id/card_credit"
+                app:layout_constraintTop_toBottomOf="@id/tV_other_pay"
+                android:layout_marginTop="20dp"
+                android:visibility="gone"
+                android:id="@+id/credit_selected"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_check_white">
+
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                app:layout_constraintLeft_toRightOf="@+id/card_credit"
+                app:layout_constraintTop_toBottomOf="@+id/tV_other_pay"
+                android:id="@+id/card_net"
+                app:cardCornerRadius="10dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="60dp"
+                        android:scaleType="centerInside"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:id="@+id/iV_net"
+                        android:src="@drawable/bank"/>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toBottomOf="@+id/iV_net"
+                        app:cardBackgroundColor="#00AEEF"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:cardCornerRadius="10dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:gravity="center"
+                            android:layout_height="wrap_content"
+                            android:text="Net Banking"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:background="#00AEEF"
+                            android:textSize="12sp"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/futurapt_medium"
+                            android:padding="5dp"/>
+                    </androidx.cardview.widget.CardView>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                app:cardBackgroundColor="#65C466"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintRight_toRightOf="@+id/card_net"
+                app:layout_constraintTop_toBottomOf="@id/tV_other_pay"
+                android:layout_marginTop="20dp"
+                android:id="@+id/net_selected"
+                android:visibility="gone"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_check_white">
+
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="35dp"
+                app:layout_constraintTop_toBottomOf="@+id/card_debit"
+                app:cardCornerRadius="10dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    >
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Promo Code"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:background="@null"
+                        android:fontFamily="@font/futurapt_medium"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:id="@+id/edit_promo">
+                    </EditText>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="10dp"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:cardBackgroundColor="@color/gastos"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Apply"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/futurapt_medium"
+                            android:background="@null"
+                            android:id="@+id/btn_apply_promo_reg_pay"/>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_reg_pay_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginBottom="-20dp"
+        android:layout_marginTop="40dp"
+        android:theme="@style/Theme.MaterialComponents"
+        app:cardBackgroundColor="@color/textcolor2"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="35dp">
+
+            <TextView
+                android:id="@+id/text_prov_reg_charge_reg_pay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:alpha="0.6"
+                android:textSize="14sp"
+                android:fontFamily="@font/lato"
+                android:text="Provider Registration Charges"
+                android:textColor="@color/white"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/text_amount_reg_pay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Rs. 116.82"
+                android:fontFamily="@font/lato"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/text_prov_reg_charge_reg_pay" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="40dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="15dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <Button
+                    android:id="@+id/btn_pay_reg_pay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:text="Pay"
+                    android:textColor="@color/gastos" />
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

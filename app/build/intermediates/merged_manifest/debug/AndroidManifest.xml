@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cu.gastosmerchant1"
+    android:versionCode="38"
+    android:versionName="2.1.16" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="30" />
+    <!-- Permission for camera -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS" />
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- Permission to vibrate -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <queries>
+
+        <!-- Specific apps you interact with, eg: -->
+        <package android:name="com.paytm.pgsdk.TransactionManager.PAYTM_APP_PACKAGE" />
+        <!--
+             Specific intents you query for,
+             eg: for a custom share UI
+        -->
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+        </intent>
+        <!-- Query Camera Packages -->
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE" />
+        </intent> <!-- Query Open Document -->
+        <intent>
+            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+        </intent> <!-- View Intent for UPI apps -->
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+
+            <data android:scheme="upi" />
+        </intent> <!-- Chooser Intent for UPI apps -->
+        <intent>
+            <action android:name="android.intent.action.CHOOSER" />
+
+            <data android:scheme="upi" />
+        </intent> <!-- Package Specific UPI Apps -->
+        <package android:name="in.amazon.mShop.android.shopping" />
+        <package android:name="in.org.npci.upiapp" />
+        <package android:name="com.google.android.apps.nbu.paisa.user" />
+        <package android:name="com.phonepe.app" />
+        <package android:name="net.one97.paytm" /> <!-- Needs to be explicitly declared on Android R+ -->
+        <package android:name="com.google.android.apps.maps" />
+
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+
+            <data
+                android:host="pay"
+                android:scheme="upi" />
+        </intent>
+
+        <package android:name="com.android.chrome" />
+    </queries>
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.screen.landscape"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Gastos Provider"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.cu.gastosmerchant1.Dashboard.pay_screen"
+            android:exported="false" />
+        <activity
+            android:name="com.cu.gastosmerchant1.Dashboard.membership.Bill_payment"
+            android:exported="false" />
+        <activity
+            android:name="com.cu.gastosmerchant1.Dashboard.membership.membership"
+            android:exported="false" />
+        <activity
+            android:name="com.cu.gastosmerchant1.Dashboard.membership.membership_status"
+            android:exported="false" />
+        <activity
+            android:name="com.cu.gastosmerchant1.registration.onboarded"
+            android:exported="false" />
+        <activity
+            android:name="com.cu.gastosmerchant1.settings.payment_status"
+            android:exported="false" />
+        <activity
+            android:name="com.cu.gastosmerchant1.settings.confirmation"
+            android:exported="false" />
+        <activity
+            android:name="com.cu.gastosmerchant1.settings.postAds.demo_message"
+            android:exported="false" />
+        <activity
+            android:name="com.cu.gastosmerchant1.settings.postAds.ad_payment"
+            android:exported="false" />
+        <activity
+            android:name="com.cu.gastosmerchant1.settings.postAds.budget"
+            android:exported="false" />
+        <activity
+            android:name="com.cu.gastosmerchant1.settings.postAds.post_audience"
+            android:exported="false" />
+        <activity
+            android:name="com.cu.gastosmerchant1.Ad_content"
+            android:exported="false" />
+        <activity
+            android:name="com.cu.gastosmerchant1.registration.CashFree_Activity"
+            android:exported="true" />
+        <activity
+            android:name="com.cu.gastosmerchant1.wallet.BrandingWallet"
+            android:exported="false" />
+        <activity
+            android:name="com.cu.gastosmerchant1.wallet.ProviderWallet"
+            android:exported="false" />
+        <activity
+            android:name="com.cu.gastosmerchant1.settings.PrivacyPolicyWeb"
+            android:exported="false" />
+        <activity
+            android:name="com.cu.gastosmerchant1.settings.ManageAds"
+            android:exported="false" />
+        <activity
+            android:name="com.cu.gastosmerchant1.settings.ReferAndEarn"
+            android:exported="false" />
+        <activity
+            android:name="com.cu.gastosmerchant1.settings.ManageDesign"
+            android:exported="false" />
+        <activity
+            android:name="com.cu.gastosmerchant1.settings.RequestDesign"
+            android:exported="false" />
+        <activity
+            android:name="com.cu.gastosmerchant1.Dashboard.GenerateQrActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cu.gastosmerchant1.settings.PostAds"
+            android:exported="true" />
+        <activity
+            android:name="com.cu.gastosmerchant1.PaymentStatus"
+            android:exported="false" />
+        <activity
+            android:name="com.cu.gastosmerchant1.selectPackage.selectPackage"
+            android:exported="false" />
+        <activity
+            android:name="com.cu.gastosmerchant1.registration.paymentActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <!--
+        <activity
+            android:name="com.paytm.pgsdk.PaytmPGActivity"
+            android:configChanges="keyboardHidden|orientation|keyboard"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat"
+            tools:replace="android:theme"
+            />
+        -->
+        <activity
+            android:name="com.paytm.pgsdk.PaytmPGActivity"
+            android:configChanges="keyboardHidden|orientation|keyboard"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name="com.cu.gastosmerchant1.registration.RegistrationPayActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.cu.gastosmerchant1.registration.UserAgreement"
+            android:exported="false" />
+        <activity android:name="com.cu.gastosmerchant1.settings.ProviderWallet" />
+        <activity android:name="com.cu.gastosmerchant1.registration.RegistrationPaymentActivity" />
+        <activity
+            android:name="com.cu.gastosmerchant1.upiparse.QRScannerActivity"
+            android:exported="true" />
+        <activity android:name="com.cu.gastosmerchant1.pymtdialog" />
+        <activity android:name="com.cu.gastosmerchant1.Dashboard.pymt_info" />
+        <activity android:name="com.cu.gastosmerchant1.recvd_paymt" />
+        <activity android:name="com.cu.gastosmerchant1.Settings" />
+        <activity android:name="com.cu.gastosmerchant1.shop_setting" />
+        <activity android:name="com.cu.gastosmerchant1.settings.acc_settings" />
+        <activity android:name="com.cu.gastosmerchant1.help_centre" />
+        <activity android:name="com.cu.gastosmerchant1.report_problem" />
+        <activity android:name="com.cu.gastosmerchant1.settings.TermsOfService" />
+        <activity android:name="com.cu.gastosmerchant1.contact_us" />
+        <activity android:name="com.cu.gastosmerchant1.about_us" />
+        <activity
+            android:name="com.cu.gastosmerchant1.Dashboard.Home"
+            android:exported="false" />
+        <activity
+            android:name="com.cu.gastosmerchant1.UpiPaymentUtils"
+            android:exported="true"
+            android:theme="@style/SplashTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cu.gastosmerchant1.registration.AddQR"
+            android:exported="false" />
+        <activity
+            android:name="com.cu.gastosmerchant1.registration.Commission"
+            android:exported="false" />
+        <activity
+            android:name="com.cu.gastosmerchant1.registration.BasicDetails"
+            android:exported="false" />
+        <activity
+            android:name="com.cu.gastosmerchant1.registration.setpin"
+            android:exported="false" />
+        <activity
+            android:name="com.cu.gastosmerchant1.registration.PhoneAuthentication"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cu.gastosmerchant1.registration.Getotp_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.cu.gastosmerchant1.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider" />
+        </provider>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name="com.paytm.pgsdk.AioMatchUserActivity"
+            android:theme="@style/TransparentActivityTheme" />
+
+        <service
+            android:name="com.paytm.pgsdk.IntentServicePostNotification"
+            android:exported="false" />
+        <service
+            android:name="com.paytm.pgsdk.IntentServicePreNotification"
+            android:exported="false" />
+        <service
+            android:name="easypay.appinvoke.utils.EasyPayConfigDownloader"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="easypay.appinvoke.utils.AnalyticsService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <activity android:name="easypay.appinvoke.AnalyticsManagerInfoDisplayActivity" />
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.cu.gastosmerchant1.com.squareup.picasso"
+            android:exported="false" />
+
+        <activity
+            android:name="com.karumi.dexter.DexterActivity"
+            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+        <activity
+            android:name="com.cashfree.pg.ui.web_checkout.CFPaymentActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.cashfree.pg.ui.CFResponseHandlerActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Translucent" />
+        <activity
+            android:name="com.cashfree.pg.ui.upi.CFUPIPaymentActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Translucent" />
+        <activity
+            android:name="com.cashfree.pg.ui.amazonpay.AmazonPayActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Translucent" />
+        <activity
+            android:name="com.cashfree.pg.ui.gpay.GooglePayActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Translucent" />
+        <activity
+            android:name="com.cashfree.pg.ui.phonepe.CFPhonePayActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Translucent" />
+        <activity
+            android:name="com.cashfree.pg.ui.simulator.CFUPITestAppActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.cashfree.pg.ui.simulator.CFUPITestActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Translucent" />
+        <activity
+            android:name="com.github.dhaval2404.imagepicker.ImagePickerActivity"
+            android:screenOrientation="unspecified"
+            android:theme="@style/Theme.Transparent.ImagePicker" />
+
+        <provider
+            android:name="com.github.dhaval2404.imagepicker.ImagePickerFileProvider"
+            android:authorities="com.cu.gastosmerchant1.imagepicker.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/image_picker_provider_paths" />
+        </provider>
+
+        <activity
+            android:name="dev.shreyaspatil.easyupipayment.ui.PaymentUiActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+
+        <provider
+            android:name="com.cashfree.pg.api.CashfreeCoreContentProvider"
+            android:authorities="com.cu.gastosmerchant1.cashfreecorecontentprovider"
+            android:exported="false" />
+
+        <meta-data
+            android:name="cashfree_pg_core_auto_initialization_enabled"
+            android:value="@bool/cashfree_pg_core_auto_initialize_enabled" />
+        <meta-data
+            android:name="cashfree_pg_core_reporting_enabled"
+            android:value="@bool/cashfree_pg_core_reporting_enabled" />
+
+        <activity
+            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="firebase.auth"
+                    android:path="/"
+                    android:scheme="genericidp" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="firebase.auth"
+                    android:path="/"
+                    android:scheme="recaptcha" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="sensorLandscape"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <service
+            android:name="androidx.camera.core.impl.MetadataHolderService"
+            android:enabled="false"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+        </service>
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             but set to not exported to explicitly avoid allowing another app to call it.
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="com.razorpay.RzpTokenReceiver" >
+            <intent-filter>
+                <action android:name="rzp.device_token.share" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.razorpay.CheckoutActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:theme="@style/CheckoutTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <data
+                    android:host="rzp.io"
+                    android:scheme="io.rzp" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.razorpay.plugin.googlepay_all"
+            android:value="com.razorpay.RzpGpayMerged" /> <!-- Needs to be explicitly declared on P+ -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.cashfree.pg.core.api.ui.CFCoreUPIPaymentActivity"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/CFCoreUPIStyle" />
+        <activity
+            android:name="com.cashfree.pg.core.api.ui.CashfreeCoreNativeVerificationActivity"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/CFCoreTheme" />
+
+        <meta-data
+            android:name="cashfree_pg_logging_level"
+            android:value="@integer/cashfree_pg_logging_level" />
+
+        <activity
+            android:name="com.cashfree.pg.ui.hidden.checkout.CashfreeNativeCheckoutActivity"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/CFUITheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+            Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+        <service
+            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <provider
+            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+            android:authorities="com.cu.gastosmerchant1.mlkitinitprovider"
+            android:exported="false"
+            android:initOrder="99" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.cu.gastosmerchant1.firebaseinitprovider"
+            android:directBootAware="true"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.cu.gastosmerchant1.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+
+        <service
+            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false" >
+            <meta-data
+                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                android:value="cct" />
+        </service>
+        <service
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+        </service>
+
+        <receiver
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false" />
+    </application>
+
+</manifest>

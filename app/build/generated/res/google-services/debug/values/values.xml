@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">828672159733-s5a3aah6vd0tu6vh4gsd7opf8qvccmne.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://gastosprovidermvp-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">828672159733</string>
+    <string name="google_api_key" translatable="false">AIzaSyAAQ73fjJ_hJNqXAaitepnDD-iOjZdB9mw</string>
+    <string name="google_app_id" translatable="false">1:828672159733:android:0a7c6cd15c2ca08821babc</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAAQ73fjJ_hJNqXAaitepnDD-iOjZdB9mw</string>
+    <string name="google_storage_bucket" translatable="false">gastosprovidermvp.appspot.com</string>
+    <string name="project_id" translatable="false">gastosprovidermvp</string>
+</resources>

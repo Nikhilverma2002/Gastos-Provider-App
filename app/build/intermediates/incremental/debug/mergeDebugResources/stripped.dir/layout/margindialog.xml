@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="255dp"
+    android:layout_height="360dp"
+    android:layout_marginTop="10dp"
+    android:layout_gravity="center"
+    app:cardElevation="100dp"
+    android:paddingBottom="1dp"
+    app:cardCornerRadius="30dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="50dp"
+    android:layout_height="match_parent"
+    android:weightSum="6">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Do you agree to provide"
+        android:fontFamily="@font/roboto"
+        android:textColor="#4F4F4F"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="18sp"
+    />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textSize="18dp"
+        android:textColor="#4F4F4F"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Set Margin %"
+        android:gravity="center"
+        android:background="@drawable/boxround"
+        android:fontFamily="@font/futurapt_medium"
+        android:id="@+id/marginpercenttext"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="#4F4F4F"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:fontFamily="@font/roboto"
+        android:lineHeight="25dp"
+        android:text="to Gastos Private Limited ?\n
+We will use this margin \nto retain more customer to your business."
+        />
+
+
+
+<Button
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/roundedbutton"
+    android:layout_gravity="center"
+    android:fontFamily="@font/roboto"
+    android:textSize="15sp"
+    android:text="I Agree"
+    android:textColor="@color/white"
+    android:textStyle="bold"
+    android:layout_marginTop="20dp"
+    android:id="@+id/marginconfirmbtn"
+    />
+
+
+
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>

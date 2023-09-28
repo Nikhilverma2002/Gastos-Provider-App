@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/logout_back">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are you sure you want to logout?"
+        android:fontFamily="@font/roboto"
+        android:layout_marginTop="42dp"
+        android:textColor="#004445"
+        android:textSize="15sp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="you’ll be missed"
+        android:fontFamily="@font/roboto"
+        android:textColor="#004445"
+        android:layout_marginTop="@dimen/dimen_8dp"
+        android:textSize="15sp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/dissatisfied"
+        android:layout_marginBottom="40dp"/>
+
+    <TextView
+        android:id="@+id/logout_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:fontFamily="@font/roboto"
+        android:textSize="@dimen/dimen_15dp"
+        android:textColor="#2D796D" />
+
+    <Button
+        android:id="@+id/cancel_logout"
+        android:layout_width="137dp"
+        android:layout_height="35dp"
+        android:text="Cancel"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="@dimen/dimen_23dp"
+        android:textColor="@color/white"
+        android:background="@drawable/cancel_background"
+        android:textSize="@dimen/dimen_15sp"
+        android:fontFamily="@font/roboto"
+        android:textStyle="bold"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

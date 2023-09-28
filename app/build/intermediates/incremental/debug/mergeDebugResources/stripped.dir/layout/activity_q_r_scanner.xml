@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".upiparse.QRScannerActivity">
+
+    <TextView
+        android:id="@+id/scanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:fontFamily="@font/futurapt_demi"
+        android:gravity="center_horizontal"
+        android:maxLines="1"
+        android:text="Scan QR"
+        android:textColor="#004445"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/prev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="25dp"
+        android:padding="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_back" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/scanner">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/button_back" />
+
+            <FrameLayout
+                android:id="@+id/frameLayout"
+                android:layout_width="match_parent"
+                android:layout_height="350dp">
+
+                <com.budiyev.android.codescanner.CodeScannerView
+                    android:id="@+id/scanner_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:autoFocusButtonColor="@android:color/white"
+                    app:autoFocusButtonVisible="true"
+                    app:flashButtonColor="@android:color/white"
+                    app:flashButtonVisible="true"
+                    app:frameAspectRatioHeight="1"
+                    app:frameAspectRatioWidth="1"
+                    app:frameColor="@android:color/white"
+                    app:frameCornersRadius="20dp"
+                    app:frameCornersSize="50dp"
+                    app:frameSize="0.75"
+                    app:frameThickness="10dp"
+                    app:maskColor="#77000000" />
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/idIVQrCode"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/idTVQrCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="430dp"
+                android:layout_marginEnd="20dp"
+                android:padding="5dp"
+                android:text="Qr code"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/idEdtType"
+                android:layout_width="100dp"
+                android:layout_height="45dp"
+                android:layout_below="@id/frameLayout"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="30dp"
+                android:textSize="14sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/border_rect"
+                android:gravity="center"
+                android:hint="QR Name" />
+
+            <EditText
+                android:id="@+id/idEdtUPI"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/idEdtType"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="30dp"
+                android:textSize="14sp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/border_rect"
+                android:gravity="center"
+                android:hint="@string/enter_upi_id" />
+
+            <EditText
+                android:id="@+id/idEdtMid"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/idEdtUPI"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/border_rect"
+                android:gravity="center"
+                android:visibility="gone"
+                android:hint="Merchant Id"
+                android:textSize="14sp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView12"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_below="@id/idEdtMid"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:elevation="50dp"
+                android:layout_marginBottom="20dp"
+                app:cardBackgroundColor="@color/gastos"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp">
+
+                <Button
+                    android:id="@+id/add"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gastos"
+                    android:text="Add"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+

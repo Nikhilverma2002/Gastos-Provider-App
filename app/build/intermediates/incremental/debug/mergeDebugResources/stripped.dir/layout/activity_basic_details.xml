@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".registration.BasicDetails">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/prev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:padding="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_back" />
+
+
+            <TextView
+                android:id="@+id/legal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/futurapt_demi"
+                android:gravity="top"
+                android:maxLines="1"
+                android:text="Basic Details"
+                android:textColor="#004445"
+                android:textSize="25sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="330dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="28dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.491"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/legal">
+
+                <ImageView
+                    android:id="@+id/shopImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/shopcover"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="65dp"
+                android:elevation="15dp"
+                android:fontFamily="@font/futurapt_medium"
+                android:gravity="top"
+                android:maxLines="1"
+                android:text="Shop Cover Photo"
+                android:textColor="#004445"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toBottomOf="@+id/cardView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="320dp"
+                android:layout_marginBottom="-8dp"
+                app:cardCornerRadius="13dp"
+                app:cardElevation="25dp"
+                app:layout_constraintBottom_toBottomOf="@+id/cardView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <Button
+                    android:id="@+id/photoPickerbutton"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/shopplus"
+                    tools:layout_editor_absoluteX="368dp"
+                    tools:layout_editor_absoluteY="267dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <EditText
+                android:id="@+id/ownername"
+                android:layout_width="345dp"
+                android:layout_height="64dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/border_rect"
+                android:elevation="5dp"
+                android:fontFamily="@font/futurapt_medium"
+                android:hint="Owner Name"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textColorHint="#818181"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+            <EditText
+                android:id="@+id/phnumber"
+                android:layout_width="345dp"
+                android:layout_height="64dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border_rect"
+                android:elevation="5dp"
+                android:fontFamily="@font/futurapt_medium"
+                android:hint="Phone Number"
+                android:textSize="18sp"
+                android:inputType="number"
+                android:maxLength="10"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="#818181"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ownername" />
+
+            <EditText
+                android:id="@+id/emailadress"
+                android:layout_width="345dp"
+                android:layout_height="64dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border_rect"
+                android:elevation="5dp"
+                android:fontFamily="@font/futurapt_medium"
+                android:hint="Email Address"
+                android:textSize="18sp"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="#818181"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/phnumber" />
+
+            <EditText
+                android:id="@+id/shopaddresss"
+                android:layout_width="345dp"
+                android:layout_height="64dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border_rect"
+                android:elevation="5dp"
+                android:fontFamily="@font/futurapt_medium"
+                android:hint="Shop Address"
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="#818181"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.505"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/shopname" />
+
+            <EditText
+                android:id="@+id/shopname"
+                android:layout_width="345dp"
+                android:layout_height="64dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border_rect"
+                android:elevation="5dp"
+                android:fontFamily="@font/futurapt_medium"
+                android:hint="Shop Name"
+                android:textSize="18sp"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="#818181"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/emailadress" />
+
+            <LinearLayout
+                android:id="@+id/select_state_relative"
+                android:layout_width="345dp"
+                android:layout_height="64dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/border_rect"
+                android:orientation="horizontal"
+                android:paddingStart="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.505"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/shopaddresss">
+
+                <TextView
+                    android:id="@+id/selectstate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/futurapt_medium"
+                    android:letterSpacing="-0.02"
+                    android:padding="3dp"
+                    android:paddingTop="20dp"
+                    android:text="@string/shop_locate_state"
+                    android:textColor="#818181"
+                    android:textSize="18sp" />
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/state_spinner"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/searchbasic"
+                    android:drawSelectorOnTop="true"
+                    android:prompt="@string/state_spinner_prompt"
+                    android:spinnerMode="dialog" />
+
+                <!--                <ImageView-->
+                <!--                    android:id="@+id/imageView"-->
+                <!--                    android:layout_width="25dp"-->
+                <!--                    android:layout_height="25dp"-->
+                <!--                    android:layout_gravity="center_vertical"-->
+                <!--                    android:layout_marginEnd="20dp"-->
+                <!--                    android:background="@drawable/searchbasic"-->
+                <!--                    android:elevation="20dp" />-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/select_city_relative"
+                android:layout_width="345dp"
+                android:layout_height="64dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/border_rect"
+                android:orientation="horizontal"
+                android:paddingStart="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.505"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/select_state_relative">
+
+                <TextView
+                    android:id="@+id/selectcity"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/futurapt_medium"
+                    android:letterSpacing="-0.02"
+                    android:padding="3dp"
+                    android:paddingTop="20dp"
+                    android:text="@string/shop_locate_city"
+                    android:textColor="#818181"
+                    android:textSize="18sp" />
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/city_spinner"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/searchbasic"
+                    android:drawSelectorOnTop="true"
+                    android:prompt="@string/city_spinner_prompt"
+                    android:spinnerMode="dialog" />
+
+                <!--                <ImageView-->
+                <!--                    android:id="@+id/imageView"-->
+                <!--                    android:layout_width="25dp"-->
+                <!--                    android:layout_height="25dp"-->
+                <!--                    android:layout_gravity="center_vertical"-->
+                <!--                    android:layout_marginEnd="20dp"-->
+                <!--                    android:background="@drawable/searchbasic"-->
+                <!--                    android:elevation="20dp" />-->
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/area"
+                android:layout_width="345dp"
+                android:layout_height="64dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border_rect"
+                android:elevation="5dp"
+                android:fontFamily="@font/futurapt_medium"
+                android:hint="Area"
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:textColorHint="#818181"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.505"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/select_city_relative" />
+
+
+            <LinearLayout
+                android:id="@+id/select_category_linear"
+                android:layout_width="345dp"
+                android:layout_height="64dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/border_rect"
+                android:orientation="horizontal"
+                android:paddingStart="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.505"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/area">
+
+                <TextView
+                    android:id="@+id/selectcat"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/futurapt_medium"
+                    android:letterSpacing="-0.02"
+                    android:padding="3dp"
+                    android:paddingTop="20dp"
+                    android:text="@string/shop_catego"
+                    android:textColor="#818181"
+                    android:textSize="18sp" />
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/category_spinner"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/searchbasic"
+                    android:drawSelectorOnTop="true"
+                    android:prompt="@string/category_spinner_prompt"
+                    android:spinnerMode="dialog" />
+
+                <!--                <ImageView-->
+                <!--                    android:id="@+id/imageView2"-->
+                <!--                    android:layout_width="25dp"-->
+                <!--                    android:layout_height="25dp"-->
+                <!--                    android:layout_gravity="center_vertical"-->
+                <!--                    android:layout_marginEnd="20dp"-->
+                <!--                    android:background="@drawable/searchbasic"-->
+                <!--                    android:elevation="20dp" />-->
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/shoploc"
+                android:layout_width="345dp"
+                android:layout_height="64dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border_rect"
+                android:elevation="5dp"
+                android:fontFamily="@font/futurapt_medium"
+                android:paddingLeft="10dp"
+                android:paddingTop="20dp"
+                android:text="Shop Location"
+                android:textColor="#818181"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.505"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/select_category_linear" />
+
+
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/loader"
+                android:visibility="gone"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="10dp"
+                android:elevation="10dp"
+                android:src="@drawable/loader"
+                app:layout_constraintBottom_toBottomOf="@+id/shoploc"
+                app:layout_constraintEnd_toEndOf="@+id/shoploc"
+                app:layout_constraintHorizontal_bias="0.996"
+                app:layout_constraintStart_toStartOf="@+id/shoploc"
+                app:layout_constraintTop_toBottomOf="@+id/select_category_linear"
+                app:layout_constraintVertical_bias="0.727" />
+            <ImageView
+
+                android:id="@+id/imageView3"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/addbtn"
+                android:elevation="16dp"
+                app:layout_constraintEnd_toEndOf="@+id/shoploc"
+                app:layout_constraintTop_toTopOf="@+id/shoploc" />
+
+            <TextView
+                android:id="@+id/add_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:elevation="18dp"
+                android:text="Add"
+                android:textColor="@color/gastos"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="@+id/imageView3"
+                app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="-20dp"
+
+                android:background="@drawable/backy"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/shoploc"
+                app:layout_constraintVertical_bias="0.0">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="@font/lato_thin"
+                    android:text="Welcome to"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toTopOf="@+id/textView7"
+                    app:layout_constraintEnd_toStartOf="@+id/cardView16"
+                    app:layout_constraintHorizontal_bias="0.083"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:fontFamily="@font/lato_regular"
+                    android:text="Gastos Provider Club"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.463" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView16"
+                    android:layout_width="130dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <Button
+                        android:id="@+id/basicBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@color/white"
+                        android:elevation="50dp"
+                        android:text="Next"
+                        android:textColor="@color/gastos"
+                        android:textSize="16sp" />
+                </androidx.cardview.widget.CardView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

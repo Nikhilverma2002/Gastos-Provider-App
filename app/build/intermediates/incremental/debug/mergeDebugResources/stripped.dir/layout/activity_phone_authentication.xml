@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".registration.PhoneAuthentication">
+
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <View
+                android:id="@+id/layer_3"
+                android:layout_width="200dp"
+                android:layout_height="260dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/layer_14" />
+
+
+            <TextView
+                android:id="@+id/welcome_to_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="75dp"
+                android:fontFamily="@font/futurapt_medium"
+                android:gravity="top|start"
+                android:text="@string/welcome_to_"
+                android:textAppearance="@style/welcome_to_"
+                android:textSize="27dp"/>
+
+            <TextView
+                android:id="@+id/welcome_to_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="top|start"
+                android:text="Gastos\nProvider"
+                android:textAppearance="@style/welcome_to_1"
+                android:textSize="45dp" />
+
+            <TextView
+                android:id="@+id/enter_mobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="250dp"
+                android:fontFamily="@font/futurapt_medium"
+                android:gravity="top"
+                android:text="@string/enter_no"
+                android:textColor="#004445"
+                android:textSize="25sp" />
+
+            <View
+                android:id="@+id/enterPin1"
+                android:layout_width="330dp"
+                android:layout_height="65dp"
+                android:layout_below="@+id/enter_mobile"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/border_rect"
+                android:elevation="5dp" />
+
+            <TextView
+                android:id="@+id/some_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/enter_mobile"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="37dp"
+                android:elevation="5dp"
+                android:text="@string/nine_one"
+                android:textColor="#BF595959"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/line_32"
+                android:layout_width="1dp"
+                android:layout_height="65.1dp"
+                android:layout_below="@+id/enter_mobile"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="74dp"
+                android:layout_marginLeft="74dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/line_32"
+                android:contentDescription="@string/todo"
+                android:elevation="5dp" />
+
+            <EditText
+                android:id="@+id/number"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/enterPin1"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="7dp"
+                android:layout_toEndOf="@+id/some_id"
+                android:layout_toRightOf="@+id/some_id"
+                android:background="@null"
+                android:elevation="5dp"
+                android:fontFamily="@font/futurapt_medium"
+                android:hint="@string/enter_no"
+                android:inputType="number"
+                android:maxLength="10"
+                android:textColor="@color/black" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="40dp"
+                app:cardCornerRadius="30dp"
+                android:elevation="16dp"
+                app:cardElevation="10dp">
+
+                <Button
+                    android:id="@+id/myotpbuttonphone"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:background="@drawable/pageforward"
+                    android:contentDescription="@string/todo"/>
+            </androidx.cardview.widget.CardView>
+
+            <ProgressBar
+                android:id="@+id/progressBar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="411dp"
+                android:layout_marginRight="411dp"
+                android:layout_marginBottom="731dp"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

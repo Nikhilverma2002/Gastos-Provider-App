@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingStart="20dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="20dp"
+    android:paddingEnd="20dp"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/ic_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="todo" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="start"
+        android:text="Select Services"
+        android:textColor="#212121"
+        android:textFontWeight="700"
+        android:fontFamily="@font/plusjakartasansregular"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/plusjakartasansregular"
+        android:textFontWeight="500"
+        android:gravity="start"
+        android:text="Select the services your shop provides"
+        android:textColor="#909090"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/delivery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bg_services"
+                    android:padding="20dp"
+                    android:src="@drawable/ic_delivery"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/plusjakartasansregular"
+                    android:gravity="center"
+                    android:text="Delivery"
+                    android:textColor="#626262"
+                    android:textFontWeight="500"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="@+id/delivery"
+                    app:layout_constraintStart_toStartOf="@+id/delivery"
+                    app:layout_constraintTop_toBottomOf="@+id/delivery" />
+
+                <ImageView
+                    android:id="@+id/elliipse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_ellipse"
+                    app:layout_constraintBottom_toBottomOf="@+id/delivery"
+                    app:layout_constraintEnd_toEndOf="@+id/delivery"
+                    app:layout_constraintStart_toStartOf="@+id/delivery"
+                    app:layout_constraintTop_toBottomOf="@+id/delivery"
+                    />
+
+                <ImageView
+                    android:id="@+id/right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_done"
+                    app:layout_constraintBottom_toBottomOf="@+id/delivery"
+                    app:layout_constraintEnd_toEndOf="@+id/delivery"
+                    app:layout_constraintStart_toStartOf="@+id/delivery"
+                    app:layout_constraintTop_toBottomOf="@+id/delivery"
+                    />
+
+                <ImageView
+                    android:id="@+id/cash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="25dp"
+                    android:background="@drawable/bg_services"
+                    android:padding="20dp"
+                    android:src="@drawable/ic_delivery"
+                    app:layout_constraintStart_toEndOf="@+id/delivery"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/elliipse1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_ellipse"
+                    app:layout_constraintBottom_toBottomOf="@+id/cash"
+                    app:layout_constraintEnd_toEndOf="@+id/cash"
+                    app:layout_constraintStart_toStartOf="@+id/cash"
+                    app:layout_constraintTop_toBottomOf="@+id/cash"
+                    />
+
+                <ImageView
+                    android:id="@+id/right1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_done"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="@+id/cash"
+                    app:layout_constraintEnd_toEndOf="@+id/cash"
+                    app:layout_constraintStart_toStartOf="@+id/cash"
+                    app:layout_constraintTop_toBottomOf="@+id/cash"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/plusjakartasansregular"
+                    android:gravity="center"
+                    android:text="Cash-in-hand"
+                    android:textColor="#626262"
+                    android:textFontWeight="500"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="@+id/cash"
+                    app:layout_constraintStart_toStartOf="@+id/cash"
+                    app:layout_constraintTop_toBottomOf="@+id/cash" />
+
+                <ImageView
+                    android:id="@+id/dining"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="25dp"
+                    android:background="@drawable/bg_services"
+                    android:padding="20dp"
+                    android:src="@drawable/ic_delivery"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/cash"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/elliipse2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_ellipse"
+                    app:layout_constraintBottom_toBottomOf="@+id/dining"
+                    app:layout_constraintEnd_toEndOf="@+id/dining"
+                    app:layout_constraintStart_toStartOf="@+id/dining"
+                    app:layout_constraintTop_toBottomOf="@+id/dining"
+                    />
+
+                <ImageView
+                    android:id="@+id/right2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_done"
+                    app:layout_constraintBottom_toBottomOf="@+id/dining"
+                    app:layout_constraintEnd_toEndOf="@+id/dining"
+                    app:layout_constraintStart_toStartOf="@+id/dining"
+                    app:layout_constraintTop_toBottomOf="@+id/dining"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/plusjakartasansregular"
+                    android:gravity="center"
+                    android:text="@string/dining"
+                    android:textColor="#626262"
+                    android:textFontWeight="500"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="@+id/dining"
+                    app:layout_constraintStart_toStartOf="@+id/dining"
+                    app:layout_constraintTop_toBottomOf="@+id/dining" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:id="@+id/takeaway"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bg_services"
+                    android:padding="20dp"
+                    android:src="@drawable/ic_delivery"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/elliipse3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_ellipse"
+                    app:layout_constraintBottom_toBottomOf="@+id/takeaway"
+                    app:layout_constraintEnd_toEndOf="@+id/takeaway"
+                    app:layout_constraintStart_toStartOf="@+id/takeaway"
+                    app:layout_constraintTop_toBottomOf="@+id/takeaway" />
+
+                <ImageView
+                    android:id="@+id/right3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_done"
+                    app:layout_constraintBottom_toBottomOf="@+id/takeaway"
+                    app:layout_constraintEnd_toEndOf="@+id/takeaway"
+                    app:layout_constraintStart_toStartOf="@+id/takeaway"
+                    app:layout_constraintTop_toBottomOf="@+id/takeaway" />
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/plusjakartasansregular"
+                    android:gravity="center"
+                    android:text="@string/dining"
+                    android:textColor="#626262"
+                    android:textFontWeight="500"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="@+id/takeaway"
+                    app:layout_constraintStart_toStartOf="@+id/takeaway"
+                    app:layout_constraintTop_toBottomOf="@+id/takeaway" />
+
+
+                <ImageView
+                    android:id="@+id/air"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="25dp"
+                    android:background="@drawable/bg_services"
+                    android:padding="20dp"
+                    android:src="@drawable/ic_delivery"
+                    app:layout_constraintStart_toEndOf="@+id/takeaway"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/elliipse4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_ellipse"
+                    app:layout_constraintBottom_toBottomOf="@+id/air"
+                    app:layout_constraintEnd_toEndOf="@+id/air"
+                    app:layout_constraintStart_toStartOf="@+id/air"
+                    app:layout_constraintTop_toBottomOf="@+id/air" />
+
+                <ImageView
+                    android:id="@+id/right4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_done"
+                    app:layout_constraintBottom_toBottomOf="@+id/air"
+                    app:layout_constraintEnd_toEndOf="@+id/air"
+                    app:layout_constraintStart_toStartOf="@+id/air"
+                    app:layout_constraintTop_toBottomOf="@+id/air" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/plusjakartasansregular"
+                    android:gravity="center"
+                    android:text="@string/air_conditioning"
+                    android:textColor="#626262"
+                    android:textFontWeight="500"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="@+id/air"
+                    app:layout_constraintStart_toStartOf="@+id/air"
+                    app:layout_constraintTop_toBottomOf="@+id/air" />
+
+                <ImageView
+                    android:id="@+id/wifi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="25dp"
+                    android:background="@drawable/bg_services"
+                    android:padding="20dp"
+                    android:src="@drawable/ic_delivery"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/air"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/elliipse5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_ellipse"
+                    app:layout_constraintBottom_toBottomOf="@+id/wifi"
+                    app:layout_constraintEnd_toEndOf="@+id/wifi"
+                    app:layout_constraintStart_toStartOf="@+id/wifi"
+                    app:layout_constraintTop_toBottomOf="@+id/wifi" />
+
+                <ImageView
+                    android:id="@+id/right5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_done"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="@+id/wifi"
+                    app:layout_constraintEnd_toEndOf="@+id/wifi"
+                    app:layout_constraintStart_toStartOf="@+id/wifi"
+                    app:layout_constraintTop_toBottomOf="@+id/wifi" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/plusjakartasansregular"
+                    android:gravity="center"
+                    android:text="@string/wifi"
+                    android:textColor="#626262"
+                    android:textFontWeight="500"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="@+id/wifi"
+                    app:layout_constraintStart_toStartOf="@+id/wifi"
+                    app:layout_constraintTop_toBottomOf="@+id/wifi" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,1154 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.cu.gastosmerchant1"
+4    android:versionCode="38"
+5    android:versionName="2.1.16" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml
+10    <!-- Permission for camera -->
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:6:5-81
+11-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:6:22-78
+12    <uses-permission android:name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS" />
+12-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:7:5-9:47
+12-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:8:9-73
+13    <uses-permission android:name="android.permission.INTERNET" /> <!-- Permission to vibrate -->
+13-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:10:5-67
+13-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:10:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:11:5-79
+14-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:11:22-76
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:12:5-65
+15-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:12:22-62
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:13:5-79
+16-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:13:22-76
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:14:5-76
+17-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:14:22-73
+18    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+18-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:15:5-76
+18-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:15:22-73
+19    <uses-permission android:name="android.permission.VIBRATE" />
+19-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:16:5-66
+19-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:16:22-63
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:17:5-81
+20-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:17:22-78
+21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+21-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:18:5-80
+21-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:18:22-77
+22    <uses-permission android:name="android.permission.CALL_PHONE" />
+22-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:19:5-69
+22-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:19:22-66
+23    <uses-permission android:name="android.permission.READ_CONTACTS" />
+23-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:20:5-72
+23-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:20:22-69
+24    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+24-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:21:5-75
+24-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:21:22-72
+25
+26    <queries>
+26-->[com.paytm.appinvokesdk:appinvokesdk:1.6.6] C:\Users\nikhi\.gradle\caches\transforms-3\c88405553aea903da20f77b588fb4903\transformed\jetified-appinvokesdk-1.6.6\AndroidManifest.xml:9:5-20:15
+27
+28        <!-- Specific apps you interact with, eg: -->
+29        <package android:name="com.paytm.pgsdk.TransactionManager.PAYTM_APP_PACKAGE" />
+29-->[com.paytm.appinvokesdk:appinvokesdk:1.6.6] C:\Users\nikhi\.gradle\caches\transforms-3\c88405553aea903da20f77b588fb4903\transformed\jetified-appinvokesdk-1.6.6\AndroidManifest.xml:12:9-88
+29-->[com.paytm.appinvokesdk:appinvokesdk:1.6.6] C:\Users\nikhi\.gradle\caches\transforms-3\c88405553aea903da20f77b588fb4903\transformed\jetified-appinvokesdk-1.6.6\AndroidManifest.xml:12:18-85
+30        <!--
+31             Specific intents you query for,
+32             eg: for a custom share UI
+33        -->
+34        <intent>
+34-->[com.paytm.appinvokesdk:appinvokesdk:1.6.6] C:\Users\nikhi\.gradle\caches\transforms-3\c88405553aea903da20f77b588fb4903\transformed\jetified-appinvokesdk-1.6.6\AndroidManifest.xml:17:9-19:18
+35            <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:149:17-69
+35-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:149:25-66
+36        </intent>
+37        <!-- Query Camera Packages -->
+38        <intent>
+38-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nikhi\.gradle\caches\transforms-3\d149572c29afb1e1ba0481dd6b10d3dc\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:12:9-14:18
+39            <action android:name="android.media.action.IMAGE_CAPTURE" />
+39-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nikhi\.gradle\caches\transforms-3\d149572c29afb1e1ba0481dd6b10d3dc\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:13:13-73
+39-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nikhi\.gradle\caches\transforms-3\d149572c29afb1e1ba0481dd6b10d3dc\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:13:21-70
+40        </intent> <!-- Query Open Document -->
+41        <intent>
+41-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nikhi\.gradle\caches\transforms-3\d149572c29afb1e1ba0481dd6b10d3dc\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:16:9-18:18
+42            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+42-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nikhi\.gradle\caches\transforms-3\d149572c29afb1e1ba0481dd6b10d3dc\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:17:13-79
+42-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nikhi\.gradle\caches\transforms-3\d149572c29afb1e1ba0481dd6b10d3dc\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:17:21-76
+43        </intent> <!-- View Intent for UPI apps -->
+44        <intent>
+44-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:12:9-16:18
+45            <action android:name="android.intent.action.VIEW" />
+45-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:13:13-65
+45-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:13:21-62
+46
+47            <data android:scheme="upi" />
+47-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:15:13-42
+47-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:15:19-39
+48        </intent> <!-- Chooser Intent for UPI apps -->
+49        <intent>
+49-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:19:9-23:18
+50            <action android:name="android.intent.action.CHOOSER" />
+50-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:20:13-68
+50-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:20:21-65
+51
+52            <data android:scheme="upi" />
+52-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:15:13-42
+52-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:15:19-39
+53        </intent> <!-- Package Specific UPI Apps -->
+54        <package android:name="in.amazon.mShop.android.shopping" />
+54-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:26:9-68
+54-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:26:18-65
+55        <package android:name="in.org.npci.upiapp" />
+55-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:27:9-54
+55-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:27:18-51
+56        <package android:name="com.google.android.apps.nbu.paisa.user" />
+56-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:28:9-74
+56-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:28:18-71
+57        <package android:name="com.phonepe.app" />
+57-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:29:9-51
+57-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:29:18-48
+58        <package android:name="net.one97.paytm" /> <!-- Needs to be explicitly declared on Android R+ -->
+58-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:30:9-51
+58-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:30:18-48
+59        <package android:name="com.google.android.apps.maps" />
+59-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\nikhi\.gradle\caches\transforms-3\bb9b0c9988fe6aa6df8d22a419fa48fc\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+59-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\nikhi\.gradle\caches\transforms-3\bb9b0c9988fe6aa6df8d22a419fa48fc\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+60
+61        <intent>
+61-->[com.cashfree.pg:core:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\f6406ba5ba6bdc5f4f9983d67b2ed01a\transformed\jetified-core-1.0.0\AndroidManifest.xml:14:9-20:18
+62            <action android:name="android.intent.action.VIEW" />
+62-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:13:13-65
+62-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:13:21-62
+63
+64            <data
+64-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:15:13-42
+65                android:host="pay"
+66                android:scheme="upi" />
+66-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:15:19-39
+67        </intent>
+68
+69        <package android:name="com.android.chrome" />
+69-->[com.cashfree.pg:core:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\f6406ba5ba6bdc5f4f9983d67b2ed01a\transformed\jetified-core-1.0.0\AndroidManifest.xml:22:9-54
+69-->[com.cashfree.pg:core:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\f6406ba5ba6bdc5f4f9983d67b2ed01a\transformed\jetified-core-1.0.0\AndroidManifest.xml:22:18-51
+70    </queries>
+71
+72    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+72-->[com.paytm.easypay:easypay-appinvoke:1.7.4] C:\Users\nikhi\.gradle\caches\transforms-3\5276e38e970dc29d207cfebab9cd7291\transformed\jetified-easypay-appinvoke-1.7.4\AndroidManifest.xml:11:5-68
+72-->[com.paytm.easypay:easypay-appinvoke:1.7.4] C:\Users\nikhi\.gradle\caches\transforms-3\5276e38e970dc29d207cfebab9cd7291\transformed\jetified-easypay-appinvoke-1.7.4\AndroidManifest.xml:11:22-65
+73    <uses-feature
+73-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\nikhi\.gradle\caches\transforms-3\475a350831d8e34f4b4432c83b4ee23b\transformed\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:25:5-27:36
+74        android:name="android.hardware.camera"
+74-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\nikhi\.gradle\caches\transforms-3\475a350831d8e34f4b4432c83b4ee23b\transformed\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:26:9-47
+75        android:required="false" />
+75-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\nikhi\.gradle\caches\transforms-3\475a350831d8e34f4b4432c83b4ee23b\transformed\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:27:9-33
+76    <uses-feature
+76-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\nikhi\.gradle\caches\transforms-3\475a350831d8e34f4b4432c83b4ee23b\transformed\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:28:5-30:36
+77        android:name="android.hardware.camera.front"
+77-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\nikhi\.gradle\caches\transforms-3\475a350831d8e34f4b4432c83b4ee23b\transformed\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:29:9-53
+78        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+78-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\nikhi\.gradle\caches\transforms-3\475a350831d8e34f4b4432c83b4ee23b\transformed\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:30:9-33
+79    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+80    <uses-feature
+80-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\nikhi\.gradle\caches\transforms-3\475a350831d8e34f4b4432c83b4ee23b\transformed\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:33:5-35:36
+81        android:name="android.hardware.camera.autofocus"
+81-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\nikhi\.gradle\caches\transforms-3\475a350831d8e34f4b4432c83b4ee23b\transformed\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:34:9-57
+82        android:required="false" />
+82-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\nikhi\.gradle\caches\transforms-3\475a350831d8e34f4b4432c83b4ee23b\transformed\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:35:9-33
+83    <uses-feature
+83-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\nikhi\.gradle\caches\transforms-3\475a350831d8e34f4b4432c83b4ee23b\transformed\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:36:5-38:36
+84        android:name="android.hardware.camera.flash"
+84-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\nikhi\.gradle\caches\transforms-3\475a350831d8e34f4b4432c83b4ee23b\transformed\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:37:9-53
+85        android:required="false" />
+85-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\nikhi\.gradle\caches\transforms-3\475a350831d8e34f4b4432c83b4ee23b\transformed\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:38:9-33
+86    <uses-feature
+86-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\nikhi\.gradle\caches\transforms-3\475a350831d8e34f4b4432c83b4ee23b\transformed\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:39:5-41:36
+87        android:name="android.hardware.screen.landscape"
+87-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\nikhi\.gradle\caches\transforms-3\475a350831d8e34f4b4432c83b4ee23b\transformed\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:40:9-57
+88        android:required="false" />
+88-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\nikhi\.gradle\caches\transforms-3\475a350831d8e34f4b4432c83b4ee23b\transformed\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:41:9-33
+89    <uses-feature
+89-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\nikhi\.gradle\caches\transforms-3\475a350831d8e34f4b4432c83b4ee23b\transformed\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:42:5-44:36
+90        android:name="android.hardware.wifi"
+90-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\nikhi\.gradle\caches\transforms-3\475a350831d8e34f4b4432c83b4ee23b\transformed\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:43:9-45
+91        android:required="false" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+91-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\nikhi\.gradle\caches\transforms-3\475a350831d8e34f4b4432c83b4ee23b\transformed\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:44:9-33
+92    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+92-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\ea140ebc0d8485c11f267835a4343f84\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:25:5-82
+92-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\ea140ebc0d8485c11f267835a4343f84\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:25:22-79
+93
+94    <uses-feature
+94-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\nikhi\.gradle\caches\transforms-3\bb9b0c9988fe6aa6df8d22a419fa48fc\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+95        android:glEsVersion="0x00020000"
+95-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\nikhi\.gradle\caches\transforms-3\bb9b0c9988fe6aa6df8d22a419fa48fc\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+96        android:required="true" />
+96-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\nikhi\.gradle\caches\transforms-3\bb9b0c9988fe6aa6df8d22a419fa48fc\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+97
+98    <application
+98-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:23:5-191:19
+99        android:allowBackup="true"
+99-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:24:9-35
+100        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+100-->[androidx.core:core:1.7.0] C:\Users\nikhi\.gradle\caches\transforms-3\29bf18a4e4d09c900cda31693c7dce62\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+101        android:debuggable="true"
+102        android:extractNativeLibs="false"
+103        android:icon="@mipmap/ic_launcher"
+103-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:25:9-43
+104        android:label="Gastos Provider"
+104-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:26:9-40
+105        android:roundIcon="@mipmap/ic_launcher_round"
+105-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:27:9-54
+106        android:supportsRtl="true"
+106-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:28:9-35
+107        android:testOnly="true"
+108        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+108-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:29:9-65
+109        android:usesCleartextTraffic="true" >
+109-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:30:9-44
+110        <activity
+110-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:31:9-33:40
+111            android:name="com.cu.gastosmerchant1.Dashboard.pay_screen"
+111-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:32:13-49
+112            android:exported="false" />
+112-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:33:13-37
+113        <activity
+113-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:34:9-36:40
+114            android:name="com.cu.gastosmerchant1.Dashboard.membership.Bill_payment"
+114-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:35:13-62
+115            android:exported="false" />
+115-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:36:13-37
+116        <activity
+116-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:37:9-39:40
+117            android:name="com.cu.gastosmerchant1.Dashboard.membership.membership"
+117-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:38:13-60
+118            android:exported="false" />
+118-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:39:13-37
+119        <activity
+119-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:40:9-42:39
+120            android:name="com.cu.gastosmerchant1.Dashboard.membership.membership_status"
+120-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:41:13-67
+121            android:exported="false" />
+121-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:42:13-37
+122        <activity
+122-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:43:9-45:40
+123            android:name="com.cu.gastosmerchant1.registration.onboarded"
+123-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:44:13-51
+124            android:exported="false" />
+124-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:45:13-37
+125        <activity
+125-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:46:9-48:40
+126            android:name="com.cu.gastosmerchant1.settings.payment_status"
+126-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:47:13-52
+127            android:exported="false" />
+127-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:48:13-37
+128        <activity
+128-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:49:9-51:40
+129            android:name="com.cu.gastosmerchant1.settings.confirmation"
+129-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:50:13-50
+130            android:exported="false" />
+130-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:51:13-37
+131        <activity
+131-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:52:9-54:40
+132            android:name="com.cu.gastosmerchant1.settings.postAds.demo_message"
+132-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:53:13-58
+133            android:exported="false" />
+133-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:54:13-37
+134        <activity
+134-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:55:9-57:40
+135            android:name="com.cu.gastosmerchant1.settings.postAds.ad_payment"
+135-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:56:13-56
+136            android:exported="false" />
+136-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:57:13-37
+137        <activity
+137-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:58:9-60:40
+138            android:name="com.cu.gastosmerchant1.settings.postAds.budget"
+138-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:59:13-52
+139            android:exported="false" />
+139-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:60:13-37
+140        <activity
+140-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:61:9-63:40
+141            android:name="com.cu.gastosmerchant1.settings.postAds.post_audience"
+141-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:62:13-59
+142            android:exported="false" />
+142-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:63:13-37
+143        <activity
+143-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:64:9-66:40
+144            android:name="com.cu.gastosmerchant1.Ad_content"
+144-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:65:13-39
+145            android:exported="false" />
+145-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:66:13-37
+146        <activity
+146-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:67:9-69:39
+147            android:name="com.cu.gastosmerchant1.registration.CashFree_Activity"
+147-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:68:13-59
+148            android:exported="true" />
+148-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:69:13-36
+149        <activity
+149-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:70:9-72:40
+150            android:name="com.cu.gastosmerchant1.wallet.BrandingWallet"
+150-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:71:13-50
+151            android:exported="false" />
+151-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:72:13-37
+152        <activity
+152-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:73:9-75:40
+153            android:name="com.cu.gastosmerchant1.wallet.ProviderWallet"
+153-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:74:13-50
+154            android:exported="false" />
+154-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:75:13-37
+155        <activity
+155-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:76:9-78:40
+156            android:name="com.cu.gastosmerchant1.settings.PrivacyPolicyWeb"
+156-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:77:13-54
+157            android:exported="false" />
+157-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:78:13-37
+158        <activity
+158-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:79:9-81:40
+159            android:name="com.cu.gastosmerchant1.settings.ManageAds"
+159-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:80:13-47
+160            android:exported="false" />
+160-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:81:13-37
+161        <activity
+161-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:82:9-84:40
+162            android:name="com.cu.gastosmerchant1.settings.ReferAndEarn"
+162-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:83:13-50
+163            android:exported="false" />
+163-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:84:13-37
+164        <activity
+164-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:85:9-87:40
+165            android:name="com.cu.gastosmerchant1.settings.ManageDesign"
+165-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:86:13-50
+166            android:exported="false" />
+166-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:87:13-37
+167        <activity
+167-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:88:9-90:40
+168            android:name="com.cu.gastosmerchant1.settings.RequestDesign"
+168-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:89:13-51
+169            android:exported="false" />
+169-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:90:13-37
+170        <activity
+170-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:91:9-93:40
+171            android:name="com.cu.gastosmerchant1.Dashboard.GenerateQrActivity"
+171-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:92:13-57
+172            android:exported="false" />
+172-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:93:13-37
+173        <activity
+173-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:94:9-96:39
+174            android:name="com.cu.gastosmerchant1.settings.PostAds"
+174-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:95:13-45
+175            android:exported="true" />
+175-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:96:13-36
+176        <activity
+176-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:97:9-99:40
+177            android:name="com.cu.gastosmerchant1.PaymentStatus"
+177-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:98:13-42
+178            android:exported="false" />
+178-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:99:13-37
+179        <activity
+179-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:100:9-102:40
+180            android:name="com.cu.gastosmerchant1.selectPackage.selectPackage"
+180-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:101:13-56
+181            android:exported="false" />
+181-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:102:13-37
+182        <activity
+182-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:103:9-105:55
+183            android:name="com.cu.gastosmerchant1.registration.paymentActivity"
+183-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:104:13-57
+184            android:windowSoftInputMode="adjustPan" />
+184-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:105:13-52
+185        <!--
+186        <activity
+187            android:name="com.paytm.pgsdk.PaytmPGActivity"
+188            android:configChanges="keyboardHidden|orientation|keyboard"
+189            android:screenOrientation="portrait"
+190            android:theme="@style/Theme.AppCompat"
+191            tools:replace="android:theme"
+192            />
+193        -->
+194        <activity
+194-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:115:9-118:52
+195            android:name="com.paytm.pgsdk.PaytmPGActivity"
+195-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:116:13-59
+196            android:configChanges="keyboardHidden|orientation|keyboard"
+196-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:117:13-72
+197            android:screenOrientation="portrait"
+197-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:118:13-49
+198            android:theme="@style/Theme.AppCompat.NoActionBar" />
+198-->[com.paytm.appinvokesdk:appinvokesdk:1.6.6] C:\Users\nikhi\.gradle\caches\transforms-3\c88405553aea903da20f77b588fb4903\transformed\jetified-appinvokesdk-1.6.6\AndroidManifest.xml:26:13-63
+199        <activity
+199-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:119:9-121:55
+200            android:name="com.cu.gastosmerchant1.registration.RegistrationPayActivity"
+200-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:120:13-65
+201            android:windowSoftInputMode="adjustPan" />
+201-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:121:13-52
+202        <activity
+202-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:122:9-124:40
+203            android:name="com.cu.gastosmerchant1.registration.UserAgreement"
+203-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:123:13-55
+204            android:exported="false" />
+204-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:124:13-37
+205        <activity android:name="com.cu.gastosmerchant1.settings.ProviderWallet" />
+205-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:125:9-61
+205-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:125:19-58
+206        <activity android:name="com.cu.gastosmerchant1.registration.RegistrationPaymentActivity" />
+206-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:126:9-78
+206-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:126:19-75
+207        <activity
+207-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:127:9-129:39
+208            android:name="com.cu.gastosmerchant1.upiparse.QRScannerActivity"
+208-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:128:13-55
+209            android:exported="true" />
+209-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:129:13-36
+210        <activity android:name="com.cu.gastosmerchant1.pymtdialog" />
+210-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:130:9-48
+210-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:130:19-45
+211        <activity android:name="com.cu.gastosmerchant1.Dashboard.pymt_info" />
+211-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:131:9-57
+211-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:131:19-54
+212        <activity android:name="com.cu.gastosmerchant1.recvd_paymt" />
+212-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:132:9-49
+212-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:132:19-46
+213        <activity android:name="com.cu.gastosmerchant1.Settings" />
+213-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:133:9-46
+213-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:133:19-43
+214        <activity android:name="com.cu.gastosmerchant1.shop_setting" />
+214-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:134:9-50
+214-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:134:19-47
+215        <activity android:name="com.cu.gastosmerchant1.settings.acc_settings" />
+215-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:135:9-59
+215-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:135:19-56
+216        <activity android:name="com.cu.gastosmerchant1.help_centre" />
+216-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:136:9-49
+216-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:136:19-46
+217        <activity android:name="com.cu.gastosmerchant1.report_problem" />
+217-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:137:9-52
+217-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:137:19-49
+218        <activity android:name="com.cu.gastosmerchant1.settings.TermsOfService" />
+218-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:138:9-61
+218-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:138:19-58
+219        <activity android:name="com.cu.gastosmerchant1.contact_us" />
+219-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:139:9-48
+219-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:139:19-45
+220        <activity android:name="com.cu.gastosmerchant1.about_us" />
+220-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:140:9-46
+220-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:140:19-43
+221        <activity
+221-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:141:9-143:40
+222            android:name="com.cu.gastosmerchant1.Dashboard.Home"
+222-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:142:13-43
+223            android:exported="false" />
+223-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:143:13-37
+224        <activity
+224-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:144:9-153:20
+225            android:name="com.cu.gastosmerchant1.UpiPaymentUtils"
+225-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:145:13-44
+226            android:exported="true"
+226-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:146:13-36
+227            android:theme="@style/SplashTheme" >
+227-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:147:13-47
+228            <intent-filter>
+228-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:148:13-152:29
+229                <action android:name="android.intent.action.MAIN" />
+229-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:149:17-69
+229-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:149:25-66
+230
+231                <category android:name="android.intent.category.LAUNCHER" />
+231-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:151:17-77
+231-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:151:27-74
+232            </intent-filter>
+233        </activity>
+234        <activity
+234-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:154:9-156:40
+235            android:name="com.cu.gastosmerchant1.registration.AddQR"
+235-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:155:13-47
+236            android:exported="false" />
+236-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:156:13-37
+237        <activity
+237-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:157:9-159:40
+238            android:name="com.cu.gastosmerchant1.registration.Commission"
+238-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:158:13-52
+239            android:exported="false" />
+239-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:159:13-37
+240        <activity
+240-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:160:9-162:40
+241            android:name="com.cu.gastosmerchant1.registration.BasicDetails"
+241-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:161:13-54
+242            android:exported="false" />
+242-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:162:13-37
+243        <activity
+243-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:163:9-165:40
+244            android:name="com.cu.gastosmerchant1.registration.setpin"
+244-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:164:13-48
+245            android:exported="false" />
+245-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:165:13-37
+246        <activity
+246-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:166:9-168:52
+247            android:name="com.cu.gastosmerchant1.registration.PhoneAuthentication"
+247-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:167:13-61
+248            android:screenOrientation="portrait" />
+248-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:168:13-49
+249        <activity
+249-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:169:9-171:52
+250            android:name="com.cu.gastosmerchant1.registration.Getotp_activity"
+250-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:170:13-57
+251            android:screenOrientation="portrait" />
+251-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:171:13-49
+252        <activity
+252-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:172:9-176:72
+253            android:name="com.yalantis.ucrop.UCropActivity"
+253-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:173:13-60
+254            android:configChanges="orientation"
+254-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:174:13-48
+255            android:screenOrientation="portrait"
+255-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:175:13-49
+256            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+256-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:176:13-69
+257
+258        <provider
+259            android:name="androidx.core.content.FileProvider"
+259-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:179:13-62
+260            android:authorities="com.cu.gastosmerchant1.provider"
+260-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:180:13-60
+261            android:exported="false"
+261-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:181:13-37
+262            android:grantUriPermissions="true" >
+262-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:182:13-47
+263            <meta-data
+263-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:183:13-185:57
+264                android:name="android.support.FILE_PROVIDER_PATHS"
+264-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:184:17-67
+265                android:resource="@xml/file_provider" />
+265-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:185:17-54
+266        </provider>
+267
+268        <meta-data
+268-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:188:9-190:57
+269            android:name="preloaded_fonts"
+269-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:189:13-43
+270            android:resource="@array/preloaded_fonts" />
+270-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:190:13-54
+271
+272        <activity
+272-->[com.paytm.appinvokesdk:appinvokesdk:1.6.6] C:\Users\nikhi\.gradle\caches\transforms-3\c88405553aea903da20f77b588fb4903\transformed\jetified-appinvokesdk-1.6.6\AndroidManifest.xml:27:9-29:63
+273            android:name="com.paytm.pgsdk.AioMatchUserActivity"
+273-->[com.paytm.appinvokesdk:appinvokesdk:1.6.6] C:\Users\nikhi\.gradle\caches\transforms-3\c88405553aea903da20f77b588fb4903\transformed\jetified-appinvokesdk-1.6.6\AndroidManifest.xml:28:13-64
+274            android:theme="@style/TransparentActivityTheme" />
+274-->[com.paytm.appinvokesdk:appinvokesdk:1.6.6] C:\Users\nikhi\.gradle\caches\transforms-3\c88405553aea903da20f77b588fb4903\transformed\jetified-appinvokesdk-1.6.6\AndroidManifest.xml:29:13-60
+275
+276        <service
+276-->[com.paytm.appinvokesdk:appinvokesdk:1.6.6] C:\Users\nikhi\.gradle\caches\transforms-3\c88405553aea903da20f77b588fb4903\transformed\jetified-appinvokesdk-1.6.6\AndroidManifest.xml:31:9-33:40
+277            android:name="com.paytm.pgsdk.IntentServicePostNotification"
+277-->[com.paytm.appinvokesdk:appinvokesdk:1.6.6] C:\Users\nikhi\.gradle\caches\transforms-3\c88405553aea903da20f77b588fb4903\transformed\jetified-appinvokesdk-1.6.6\AndroidManifest.xml:32:13-73
+278            android:exported="false" />
+278-->[com.paytm.appinvokesdk:appinvokesdk:1.6.6] C:\Users\nikhi\.gradle\caches\transforms-3\c88405553aea903da20f77b588fb4903\transformed\jetified-appinvokesdk-1.6.6\AndroidManifest.xml:33:13-37
+279        <service
+279-->[com.paytm.appinvokesdk:appinvokesdk:1.6.6] C:\Users\nikhi\.gradle\caches\transforms-3\c88405553aea903da20f77b588fb4903\transformed\jetified-appinvokesdk-1.6.6\AndroidManifest.xml:34:9-36:40
+280            android:name="com.paytm.pgsdk.IntentServicePreNotification"
+280-->[com.paytm.appinvokesdk:appinvokesdk:1.6.6] C:\Users\nikhi\.gradle\caches\transforms-3\c88405553aea903da20f77b588fb4903\transformed\jetified-appinvokesdk-1.6.6\AndroidManifest.xml:35:13-72
+281            android:exported="false" />
+281-->[com.paytm.appinvokesdk:appinvokesdk:1.6.6] C:\Users\nikhi\.gradle\caches\transforms-3\c88405553aea903da20f77b588fb4903\transformed\jetified-appinvokesdk-1.6.6\AndroidManifest.xml:36:13-37
+282        <service
+282-->[com.paytm.easypay:easypay-appinvoke:1.7.4] C:\Users\nikhi\.gradle\caches\transforms-3\5276e38e970dc29d207cfebab9cd7291\transformed\jetified-easypay-appinvoke-1.7.4\AndroidManifest.xml:14:9-17:72
+283            android:name="easypay.appinvoke.utils.EasyPayConfigDownloader"
+283-->[com.paytm.easypay:easypay-appinvoke:1.7.4] C:\Users\nikhi\.gradle\caches\transforms-3\5276e38e970dc29d207cfebab9cd7291\transformed\jetified-easypay-appinvoke-1.7.4\AndroidManifest.xml:15:13-75
+284            android:exported="false"
+284-->[com.paytm.easypay:easypay-appinvoke:1.7.4] C:\Users\nikhi\.gradle\caches\transforms-3\5276e38e970dc29d207cfebab9cd7291\transformed\jetified-easypay-appinvoke-1.7.4\AndroidManifest.xml:16:13-37
+285            android:permission="android.permission.BIND_JOB_SERVICE" />
+285-->[com.paytm.easypay:easypay-appinvoke:1.7.4] C:\Users\nikhi\.gradle\caches\transforms-3\5276e38e970dc29d207cfebab9cd7291\transformed\jetified-easypay-appinvoke-1.7.4\AndroidManifest.xml:17:13-69
+286        <service
+286-->[com.paytm.easypay:easypay-appinvoke:1.7.4] C:\Users\nikhi\.gradle\caches\transforms-3\5276e38e970dc29d207cfebab9cd7291\transformed\jetified-easypay-appinvoke-1.7.4\AndroidManifest.xml:18:9-22:72
+287            android:name="easypay.appinvoke.utils.AnalyticsService"
+287-->[com.paytm.easypay:easypay-appinvoke:1.7.4] C:\Users\nikhi\.gradle\caches\transforms-3\5276e38e970dc29d207cfebab9cd7291\transformed\jetified-easypay-appinvoke-1.7.4\AndroidManifest.xml:19:13-68
+288            android:enabled="true"
+288-->[com.paytm.easypay:easypay-appinvoke:1.7.4] C:\Users\nikhi\.gradle\caches\transforms-3\5276e38e970dc29d207cfebab9cd7291\transformed\jetified-easypay-appinvoke-1.7.4\AndroidManifest.xml:20:13-35
+289            android:exported="false"
+289-->[com.paytm.easypay:easypay-appinvoke:1.7.4] C:\Users\nikhi\.gradle\caches\transforms-3\5276e38e970dc29d207cfebab9cd7291\transformed\jetified-easypay-appinvoke-1.7.4\AndroidManifest.xml:21:13-37
+290            android:permission="android.permission.BIND_JOB_SERVICE" />
+290-->[com.paytm.easypay:easypay-appinvoke:1.7.4] C:\Users\nikhi\.gradle\caches\transforms-3\5276e38e970dc29d207cfebab9cd7291\transformed\jetified-easypay-appinvoke-1.7.4\AndroidManifest.xml:22:13-69
+291
+292        <activity android:name="easypay.appinvoke.AnalyticsManagerInfoDisplayActivity" />
+292-->[com.paytm.easypay:easypay-appinvoke:1.7.4] C:\Users\nikhi\.gradle\caches\transforms-3\5276e38e970dc29d207cfebab9cd7291\transformed\jetified-easypay-appinvoke-1.7.4\AndroidManifest.xml:24:9-90
+292-->[com.paytm.easypay:easypay-appinvoke:1.7.4] C:\Users\nikhi\.gradle\caches\transforms-3\5276e38e970dc29d207cfebab9cd7291\transformed\jetified-easypay-appinvoke-1.7.4\AndroidManifest.xml:24:19-87
+293
+294        <provider
+294-->[com.squareup.picasso:picasso:2.71828] C:\Users\nikhi\.gradle\caches\transforms-3\ec0738c5d545de31b1cd52783d88f795\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+295            android:name="com.squareup.picasso.PicassoProvider"
+295-->[com.squareup.picasso:picasso:2.71828] C:\Users\nikhi\.gradle\caches\transforms-3\ec0738c5d545de31b1cd52783d88f795\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+296            android:authorities="com.cu.gastosmerchant1.com.squareup.picasso"
+296-->[com.squareup.picasso:picasso:2.71828] C:\Users\nikhi\.gradle\caches\transforms-3\ec0738c5d545de31b1cd52783d88f795\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+297            android:exported="false" />
+297-->[com.squareup.picasso:picasso:2.71828] C:\Users\nikhi\.gradle\caches\transforms-3\ec0738c5d545de31b1cd52783d88f795\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+298
+299        <activity
+299-->[com.karumi:dexter:5.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\2e005b06a1c99f47ccd15cde9c92f364\transformed\jetified-dexter-5.0.0\AndroidManifest.xml:27:9-29:72
+300            android:name="com.karumi.dexter.DexterActivity"
+300-->[com.karumi:dexter:5.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\2e005b06a1c99f47ccd15cde9c92f364\transformed\jetified-dexter-5.0.0\AndroidManifest.xml:28:13-60
+301            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+301-->[com.karumi:dexter:5.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\2e005b06a1c99f47ccd15cde9c92f364\transformed\jetified-dexter-5.0.0\AndroidManifest.xml:29:13-69
+302        <activity
+302-->[com.cashfree.pg:android-sdk:1.7.21] C:\Users\nikhi\.gradle\caches\transforms-3\b5d249299febddcf6cbbc71affb2669e\transformed\jetified-android-sdk-1.7.21\AndroidManifest.xml:22:9-25:72
+303            android:name="com.cashfree.pg.ui.web_checkout.CFPaymentActivity"
+303-->[com.cashfree.pg:android-sdk:1.7.21] C:\Users\nikhi\.gradle\caches\transforms-3\b5d249299febddcf6cbbc71affb2669e\transformed\jetified-android-sdk-1.7.21\AndroidManifest.xml:23:13-77
+304            android:exported="false"
+304-->[com.cashfree.pg:android-sdk:1.7.21] C:\Users\nikhi\.gradle\caches\transforms-3\b5d249299febddcf6cbbc71affb2669e\transformed\jetified-android-sdk-1.7.21\AndroidManifest.xml:24:13-37
+305            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+305-->[com.cashfree.pg:android-sdk:1.7.21] C:\Users\nikhi\.gradle\caches\transforms-3\b5d249299febddcf6cbbc71affb2669e\transformed\jetified-android-sdk-1.7.21\AndroidManifest.xml:25:13-69
+306        <activity
+306-->[com.cashfree.pg:android-sdk:1.7.21] C:\Users\nikhi\.gradle\caches\transforms-3\b5d249299febddcf6cbbc71affb2669e\transformed\jetified-android-sdk-1.7.21\AndroidManifest.xml:26:9-29:66
+307            android:name="com.cashfree.pg.ui.CFResponseHandlerActivity"
+307-->[com.cashfree.pg:android-sdk:1.7.21] C:\Users\nikhi\.gradle\caches\transforms-3\b5d249299febddcf6cbbc71affb2669e\transformed\jetified-android-sdk-1.7.21\AndroidManifest.xml:27:13-72
+308            android:exported="false"
+308-->[com.cashfree.pg:android-sdk:1.7.21] C:\Users\nikhi\.gradle\caches\transforms-3\b5d249299febddcf6cbbc71affb2669e\transformed\jetified-android-sdk-1.7.21\AndroidManifest.xml:28:13-37
+309            android:theme="@style/Theme.AppCompat.Translucent" />
+309-->[com.cashfree.pg:android-sdk:1.7.21] C:\Users\nikhi\.gradle\caches\transforms-3\b5d249299febddcf6cbbc71affb2669e\transformed\jetified-android-sdk-1.7.21\AndroidManifest.xml:29:13-63
+310        <activity
+310-->[com.cashfree.pg:android-sdk:1.7.21] C:\Users\nikhi\.gradle\caches\transforms-3\b5d249299febddcf6cbbc71affb2669e\transformed\jetified-android-sdk-1.7.21\AndroidManifest.xml:30:9-33:66
+311            android:name="com.cashfree.pg.ui.upi.CFUPIPaymentActivity"
+311-->[com.cashfree.pg:android-sdk:1.7.21] C:\Users\nikhi\.gradle\caches\transforms-3\b5d249299febddcf6cbbc71affb2669e\transformed\jetified-android-sdk-1.7.21\AndroidManifest.xml:31:13-71
+312            android:exported="false"
+312-->[com.cashfree.pg:android-sdk:1.7.21] C:\Users\nikhi\.gradle\caches\transforms-3\b5d249299febddcf6cbbc71affb2669e\transformed\jetified-android-sdk-1.7.21\AndroidManifest.xml:32:13-37
+313            android:theme="@style/Theme.AppCompat.Translucent" />
+313-->[com.cashfree.pg:android-sdk:1.7.21] C:\Users\nikhi\.gradle\caches\transforms-3\b5d249299febddcf6cbbc71affb2669e\transformed\jetified-android-sdk-1.7.21\AndroidManifest.xml:33:13-63
+314        <activity
+314-->[com.cashfree.pg:android-sdk:1.7.21] C:\Users\nikhi\.gradle\caches\transforms-3\b5d249299febddcf6cbbc71affb2669e\transformed\jetified-android-sdk-1.7.21\AndroidManifest.xml:34:9-37:66
+315            android:name="com.cashfree.pg.ui.amazonpay.AmazonPayActivity"
+315-->[com.cashfree.pg:android-sdk:1.7.21] C:\Users\nikhi\.gradle\caches\transforms-3\b5d249299febddcf6cbbc71affb2669e\transformed\jetified-android-sdk-1.7.21\AndroidManifest.xml:35:13-74
+316            android:exported="false"
+316-->[com.cashfree.pg:android-sdk:1.7.21] C:\Users\nikhi\.gradle\caches\transforms-3\b5d249299febddcf6cbbc71affb2669e\transformed\jetified-android-sdk-1.7.21\AndroidManifest.xml:36:13-37
+317            android:theme="@style/Theme.AppCompat.Translucent" />
+317-->[com.cashfree.pg:android-sdk:1.7.21] C:\Users\nikhi\.gradle\caches\transforms-3\b5d249299febddcf6cbbc71affb2669e\transformed\jetified-android-sdk-1.7.21\AndroidManifest.xml:37:13-63
+318        <activity
+318-->[com.cashfree.pg:android-sdk:1.7.21] C:\Users\nikhi\.gradle\caches\transforms-3\b5d249299febddcf6cbbc71affb2669e\transformed\jetified-android-sdk-1.7.21\AndroidManifest.xml:38:9-41:66
+319            android:name="com.cashfree.pg.ui.gpay.GooglePayActivity"
+319-->[com.cashfree.pg:android-sdk:1.7.21] C:\Users\nikhi\.gradle\caches\transforms-3\b5d249299febddcf6cbbc71affb2669e\transformed\jetified-android-sdk-1.7.21\AndroidManifest.xml:39:13-69
+320            android:exported="false"
+320-->[com.cashfree.pg:android-sdk:1.7.21] C:\Users\nikhi\.gradle\caches\transforms-3\b5d249299febddcf6cbbc71affb2669e\transformed\jetified-android-sdk-1.7.21\AndroidManifest.xml:40:13-37
+321            android:theme="@style/Theme.AppCompat.Translucent" />
+321-->[com.cashfree.pg:android-sdk:1.7.21] C:\Users\nikhi\.gradle\caches\transforms-3\b5d249299febddcf6cbbc71affb2669e\transformed\jetified-android-sdk-1.7.21\AndroidManifest.xml:41:13-63
+322        <activity
+322-->[com.cashfree.pg:android-sdk:1.7.21] C:\Users\nikhi\.gradle\caches\transforms-3\b5d249299febddcf6cbbc71affb2669e\transformed\jetified-android-sdk-1.7.21\AndroidManifest.xml:42:9-45:66
+323            android:name="com.cashfree.pg.ui.phonepe.CFPhonePayActivity"
+323-->[com.cashfree.pg:android-sdk:1.7.21] C:\Users\nikhi\.gradle\caches\transforms-3\b5d249299febddcf6cbbc71affb2669e\transformed\jetified-android-sdk-1.7.21\AndroidManifest.xml:43:13-73
+324            android:exported="false"
+324-->[com.cashfree.pg:android-sdk:1.7.21] C:\Users\nikhi\.gradle\caches\transforms-3\b5d249299febddcf6cbbc71affb2669e\transformed\jetified-android-sdk-1.7.21\AndroidManifest.xml:44:13-37
+325            android:theme="@style/Theme.AppCompat.Translucent" />
+325-->[com.cashfree.pg:android-sdk:1.7.21] C:\Users\nikhi\.gradle\caches\transforms-3\b5d249299febddcf6cbbc71affb2669e\transformed\jetified-android-sdk-1.7.21\AndroidManifest.xml:45:13-63
+326        <activity
+326-->[com.cashfree.pg:android-sdk:1.7.21] C:\Users\nikhi\.gradle\caches\transforms-3\b5d249299febddcf6cbbc71affb2669e\transformed\jetified-android-sdk-1.7.21\AndroidManifest.xml:46:9-49:72
+327            android:name="com.cashfree.pg.ui.simulator.CFUPITestAppActivity"
+327-->[com.cashfree.pg:android-sdk:1.7.21] C:\Users\nikhi\.gradle\caches\transforms-3\b5d249299febddcf6cbbc71affb2669e\transformed\jetified-android-sdk-1.7.21\AndroidManifest.xml:47:13-77
+328            android:exported="false"
+328-->[com.cashfree.pg:android-sdk:1.7.21] C:\Users\nikhi\.gradle\caches\transforms-3\b5d249299febddcf6cbbc71affb2669e\transformed\jetified-android-sdk-1.7.21\AndroidManifest.xml:48:13-37
+329            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+329-->[com.cashfree.pg:android-sdk:1.7.21] C:\Users\nikhi\.gradle\caches\transforms-3\b5d249299febddcf6cbbc71affb2669e\transformed\jetified-android-sdk-1.7.21\AndroidManifest.xml:49:13-69
+330        <activity
+330-->[com.cashfree.pg:android-sdk:1.7.21] C:\Users\nikhi\.gradle\caches\transforms-3\b5d249299febddcf6cbbc71affb2669e\transformed\jetified-android-sdk-1.7.21\AndroidManifest.xml:50:9-53:66
+331            android:name="com.cashfree.pg.ui.simulator.CFUPITestActivity"
+331-->[com.cashfree.pg:android-sdk:1.7.21] C:\Users\nikhi\.gradle\caches\transforms-3\b5d249299febddcf6cbbc71affb2669e\transformed\jetified-android-sdk-1.7.21\AndroidManifest.xml:51:13-74
+332            android:exported="false"
+332-->[com.cashfree.pg:android-sdk:1.7.21] C:\Users\nikhi\.gradle\caches\transforms-3\b5d249299febddcf6cbbc71affb2669e\transformed\jetified-android-sdk-1.7.21\AndroidManifest.xml:52:13-37
+333            android:theme="@style/Theme.AppCompat.Translucent" />
+333-->[com.cashfree.pg:android-sdk:1.7.21] C:\Users\nikhi\.gradle\caches\transforms-3\b5d249299febddcf6cbbc71affb2669e\transformed\jetified-android-sdk-1.7.21\AndroidManifest.xml:53:13-63
+334        <activity
+334-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nikhi\.gradle\caches\transforms-3\d149572c29afb1e1ba0481dd6b10d3dc\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:22:9-25:68
+335            android:name="com.github.dhaval2404.imagepicker.ImagePickerActivity"
+335-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nikhi\.gradle\caches\transforms-3\d149572c29afb1e1ba0481dd6b10d3dc\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:23:13-81
+336            android:screenOrientation="unspecified"
+336-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nikhi\.gradle\caches\transforms-3\d149572c29afb1e1ba0481dd6b10d3dc\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:24:13-52
+337            android:theme="@style/Theme.Transparent.ImagePicker" />
+337-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nikhi\.gradle\caches\transforms-3\d149572c29afb1e1ba0481dd6b10d3dc\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:25:13-65
+338
+339        <provider
+339-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nikhi\.gradle\caches\transforms-3\d149572c29afb1e1ba0481dd6b10d3dc\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:31:9-39:20
+340            android:name="com.github.dhaval2404.imagepicker.ImagePickerFileProvider"
+340-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nikhi\.gradle\caches\transforms-3\d149572c29afb1e1ba0481dd6b10d3dc\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:32:13-85
+341            android:authorities="com.cu.gastosmerchant1.imagepicker.provider"
+341-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nikhi\.gradle\caches\transforms-3\d149572c29afb1e1ba0481dd6b10d3dc\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:33:13-72
+342            android:exported="false"
+342-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nikhi\.gradle\caches\transforms-3\d149572c29afb1e1ba0481dd6b10d3dc\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:34:13-37
+343            android:grantUriPermissions="true" >
+343-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nikhi\.gradle\caches\transforms-3\d149572c29afb1e1ba0481dd6b10d3dc\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:35:13-47
+344            <meta-data
+344-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:183:13-185:57
+345                android:name="android.support.FILE_PROVIDER_PATHS"
+345-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:184:17-67
+346                android:resource="@xml/image_picker_provider_paths" />
+346-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:185:17-54
+347        </provider>
+348
+349        <activity
+349-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:34:9-36:75
+350            android:name="dev.shreyaspatil.easyupipayment.ui.PaymentUiActivity"
+350-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:35:13-80
+351            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+351-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:36:13-72
+352
+353        <provider
+353-->[com.cashfree.pg:api:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\b9d2ab1a4c88be6023f66c04b6e99928\transformed\jetified-api-1.0.0\AndroidManifest.xml:10:9-13:40
+354            android:name="com.cashfree.pg.api.CashfreeCoreContentProvider"
+354-->[com.cashfree.pg:api:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\b9d2ab1a4c88be6023f66c04b6e99928\transformed\jetified-api-1.0.0\AndroidManifest.xml:11:13-75
+355            android:authorities="com.cu.gastosmerchant1.cashfreecorecontentprovider"
+355-->[com.cashfree.pg:api:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\b9d2ab1a4c88be6023f66c04b6e99928\transformed\jetified-api-1.0.0\AndroidManifest.xml:12:13-79
+356            android:exported="false" />
+356-->[com.cashfree.pg:api:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\b9d2ab1a4c88be6023f66c04b6e99928\transformed\jetified-api-1.0.0\AndroidManifest.xml:13:13-37
+357
+358        <meta-data
+358-->[com.cashfree.pg:api:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\b9d2ab1a4c88be6023f66c04b6e99928\transformed\jetified-api-1.0.0\AndroidManifest.xml:15:9-17:78
+359            android:name="cashfree_pg_core_auto_initialization_enabled"
+359-->[com.cashfree.pg:api:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\b9d2ab1a4c88be6023f66c04b6e99928\transformed\jetified-api-1.0.0\AndroidManifest.xml:16:13-72
+360            android:value="@bool/cashfree_pg_core_auto_initialize_enabled" />
+360-->[com.cashfree.pg:api:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\b9d2ab1a4c88be6023f66c04b6e99928\transformed\jetified-api-1.0.0\AndroidManifest.xml:17:13-75
+361        <meta-data
+361-->[com.cashfree.pg:analytics:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\af7376758b89f238cc7544b7954a4885\transformed\jetified-analytics-1.0.0\AndroidManifest.xml:15:9-17:72
+362            android:name="cashfree_pg_core_reporting_enabled"
+362-->[com.cashfree.pg:analytics:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\af7376758b89f238cc7544b7954a4885\transformed\jetified-analytics-1.0.0\AndroidManifest.xml:16:13-62
+363            android:value="@bool/cashfree_pg_core_reporting_enabled" />
+363-->[com.cashfree.pg:analytics:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\af7376758b89f238cc7544b7954a4885\transformed\jetified-analytics-1.0.0\AndroidManifest.xml:17:13-69
+364
+365        <activity
+365-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+366            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+366-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+367            android:excludeFromRecents="true"
+367-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+368            android:exported="true"
+368-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+369            android:launchMode="singleTask"
+369-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+370            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+370-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+371            <intent-filter>
+371-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+372                <action android:name="android.intent.action.VIEW" />
+372-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:13:13-65
+372-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:13:21-62
+373
+374                <category android:name="android.intent.category.DEFAULT" />
+374-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+374-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+375                <category android:name="android.intent.category.BROWSABLE" />
+375-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+375-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+376
+377                <data
+377-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:15:13-42
+378                    android:host="firebase.auth"
+379                    android:path="/"
+380                    android:scheme="genericidp" />
+380-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:15:19-39
+381            </intent-filter>
+382        </activity>
+383        <activity
+383-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+384            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+384-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+385            android:excludeFromRecents="true"
+385-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+386            android:exported="true"
+386-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+387            android:launchMode="singleTask"
+387-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+388            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+388-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+389            <intent-filter>
+389-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+390                <action android:name="android.intent.action.VIEW" />
+390-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:13:13-65
+390-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:13:21-62
+391
+392                <category android:name="android.intent.category.DEFAULT" />
+392-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+392-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+393                <category android:name="android.intent.category.BROWSABLE" />
+393-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+393-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+394
+395                <data
+395-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:15:13-42
+396                    android:host="firebase.auth"
+397                    android:path="/"
+398                    android:scheme="recaptcha" />
+398-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:15:19-39
+399            </intent-filter>
+400        </activity>
+401
+402        <service
+402-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+403            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+403-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+404            android:enabled="true"
+404-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+405            android:exported="false" >
+405-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+406            <intent-filter>
+406-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+407                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+407-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+407-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+408
+409                <category android:name="android.intent.category.DEFAULT" />
+409-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+409-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+410            </intent-filter>
+411        </service>
+412        <service
+412-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
+413            android:name="com.google.firebase.components.ComponentDiscoveryService"
+413-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:75:13-84
+414            android:directBootAware="true"
+414-->[com.google.firebase:firebase-common:20.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\c785ce12f06099c3c4721c8dcfc9c75c\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+415            android:exported="false" >
+415-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
+416            <meta-data
+416-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+417                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+417-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+418                android:value="com.google.firebase.components.ComponentRegistrar" />
+418-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\b2f89728f11b42880a6d83f9cd7fccd6\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+419            <meta-data
+419-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\988eb1384bf338e6fd30d6a07a0c4dc1\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:20:13-22:85
+420                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+420-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\988eb1384bf338e6fd30d6a07a0c4dc1\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:21:17-111
+421                android:value="com.google.firebase.components.ComponentRegistrar" />
+421-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\988eb1384bf338e6fd30d6a07a0c4dc1\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:22:17-82
+422            <meta-data
+422-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\6046d808f52d76865b295248efe1c419\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
+423                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+423-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\6046d808f52d76865b295248efe1c419\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
+424                android:value="com.google.firebase.components.ComponentRegistrar" />
+424-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\6046d808f52d76865b295248efe1c419\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
+425            <meta-data
+425-->[com.google.firebase:firebase-database:20.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\08b40154d5e1c761c7abb5bfea5547e6\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:32:13-34:85
+426                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+426-->[com.google.firebase:firebase-database:20.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\08b40154d5e1c761c7abb5bfea5547e6\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:33:17-109
+427                android:value="com.google.firebase.components.ComponentRegistrar" />
+427-->[com.google.firebase:firebase-database:20.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\08b40154d5e1c761c7abb5bfea5547e6\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:34:17-82
+428            <meta-data
+428-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\ea140ebc0d8485c11f267835a4343f84\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:52:13-54:85
+429                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+429-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\ea140ebc0d8485c11f267835a4343f84\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:53:17-119
+430                android:value="com.google.firebase.components.ComponentRegistrar" />
+430-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\ea140ebc0d8485c11f267835a4343f84\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:54:17-82
+431            <meta-data
+431-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\115440bf880be301cc854f66b4d9993d\transformed\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:28:13-30:85
+432                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+432-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\115440bf880be301cc854f66b4d9993d\transformed\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:29:17-115
+433                android:value="com.google.firebase.components.ComponentRegistrar" />
+433-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\115440bf880be301cc854f66b4d9993d\transformed\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:30:17-82
+434            <meta-data
+434-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\e673dbcee5dc9b95eff70ed21b720528\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+435                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+435-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\e673dbcee5dc9b95eff70ed21b720528\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+436                android:value="com.google.firebase.components.ComponentRegistrar" />
+436-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\e673dbcee5dc9b95eff70ed21b720528\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+437        </service>
+438
+439        <activity
+439-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\nikhi\.gradle\caches\transforms-3\475a350831d8e34f4b4432c83b4ee23b\transformed\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:47:9-53:63
+440            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+440-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\nikhi\.gradle\caches\transforms-3\475a350831d8e34f4b4432c83b4ee23b\transformed\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:48:13-74
+441            android:clearTaskOnLaunch="true"
+441-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\nikhi\.gradle\caches\transforms-3\475a350831d8e34f4b4432c83b4ee23b\transformed\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:49:13-45
+442            android:screenOrientation="sensorLandscape"
+442-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\nikhi\.gradle\caches\transforms-3\475a350831d8e34f4b4432c83b4ee23b\transformed\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:50:13-56
+443            android:stateNotNeeded="true"
+443-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\nikhi\.gradle\caches\transforms-3\475a350831d8e34f4b4432c83b4ee23b\transformed\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:51:13-42
+444            android:theme="@style/zxing_CaptureTheme"
+444-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\nikhi\.gradle\caches\transforms-3\475a350831d8e34f4b4432c83b4ee23b\transformed\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:52:13-54
+445            android:windowSoftInputMode="stateAlwaysHidden" />
+445-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\nikhi\.gradle\caches\transforms-3\475a350831d8e34f4b4432c83b4ee23b\transformed\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:53:13-60
+446
+447        <service
+447-->[androidx.camera:camera-camera2:1.1.0-alpha10] C:\Users\nikhi\.gradle\caches\transforms-3\81552f1d76bad3918b5c228b13880929\transformed\jetified-camera-camera2-1.1.0-alpha10\AndroidManifest.xml:26:9-35:19
+448            android:name="androidx.camera.core.impl.MetadataHolderService"
+448-->[androidx.camera:camera-camera2:1.1.0-alpha10] C:\Users\nikhi\.gradle\caches\transforms-3\81552f1d76bad3918b5c228b13880929\transformed\jetified-camera-camera2-1.1.0-alpha10\AndroidManifest.xml:27:13-75
+449            android:enabled="false"
+449-->[androidx.camera:camera-camera2:1.1.0-alpha10] C:\Users\nikhi\.gradle\caches\transforms-3\81552f1d76bad3918b5c228b13880929\transformed\jetified-camera-camera2-1.1.0-alpha10\AndroidManifest.xml:28:13-36
+450            android:exported="false" >
+450-->[androidx.camera:camera-camera2:1.1.0-alpha10] C:\Users\nikhi\.gradle\caches\transforms-3\81552f1d76bad3918b5c228b13880929\transformed\jetified-camera-camera2-1.1.0-alpha10\AndroidManifest.xml:29:13-37
+451            <meta-data
+451-->[androidx.camera:camera-camera2:1.1.0-alpha10] C:\Users\nikhi\.gradle\caches\transforms-3\81552f1d76bad3918b5c228b13880929\transformed\jetified-camera-camera2-1.1.0-alpha10\AndroidManifest.xml:32:13-34:89
+452                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+452-->[androidx.camera:camera-camera2:1.1.0-alpha10] C:\Users\nikhi\.gradle\caches\transforms-3\81552f1d76bad3918b5c228b13880929\transformed\jetified-camera-camera2-1.1.0-alpha10\AndroidManifest.xml:33:17-103
+453                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+453-->[androidx.camera:camera-camera2:1.1.0-alpha10] C:\Users\nikhi\.gradle\caches\transforms-3\81552f1d76bad3918b5c228b13880929\transformed\jetified-camera-camera2-1.1.0-alpha10\AndroidManifest.xml:34:17-86
+454        </service>
+455
+456        <receiver
+456-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\ea140ebc0d8485c11f267835a4343f84\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:28:9-35:20
+457            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+457-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\ea140ebc0d8485c11f267835a4343f84\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:29:13-78
+458            android:exported="true"
+458-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\ea140ebc0d8485c11f267835a4343f84\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:30:13-36
+459            android:permission="com.google.android.c2dm.permission.SEND" >
+459-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\ea140ebc0d8485c11f267835a4343f84\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:31:13-73
+460            <intent-filter>
+460-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\ea140ebc0d8485c11f267835a4343f84\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:32:13-34:29
+461                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+461-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\ea140ebc0d8485c11f267835a4343f84\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:33:17-81
+461-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\ea140ebc0d8485c11f267835a4343f84\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:33:25-78
+462            </intent-filter>
+463        </receiver>
+464        <!--
+465             FirebaseMessagingService performs security checks at runtime,
+466             but set to not exported to explicitly avoid allowing another app to call it.
+467        -->
+468        <service
+468-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\ea140ebc0d8485c11f267835a4343f84\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:41:9-48:19
+469            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+469-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\ea140ebc0d8485c11f267835a4343f84\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:42:13-82
+470            android:directBootAware="true"
+470-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\ea140ebc0d8485c11f267835a4343f84\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:43:13-43
+471            android:exported="false" >
+471-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\ea140ebc0d8485c11f267835a4343f84\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:44:13-37
+472            <intent-filter android:priority="-500" >
+472-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\ea140ebc0d8485c11f267835a4343f84\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:45:13-47:29
+472-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\ea140ebc0d8485c11f267835a4343f84\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:45:28-51
+473                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+473-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\ea140ebc0d8485c11f267835a4343f84\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:46:17-78
+473-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\ea140ebc0d8485c11f267835a4343f84\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:46:25-75
+474            </intent-filter>
+475        </service>
+476
+477        <receiver android:name="com.razorpay.RzpTokenReceiver" >
+477-->[com.razorpay:checkout:1.6.12] C:\Users\nikhi\.gradle\caches\transforms-3\5e9d0c7af3eaa8a12ea6723283efd2e3\transformed\jetified-checkout-1.6.12\AndroidManifest.xml:12:9-16:20
+477-->[com.razorpay:checkout:1.6.12] C:\Users\nikhi\.gradle\caches\transforms-3\5e9d0c7af3eaa8a12ea6723283efd2e3\transformed\jetified-checkout-1.6.12\AndroidManifest.xml:12:19-63
+478            <intent-filter>
+478-->[com.razorpay:checkout:1.6.12] C:\Users\nikhi\.gradle\caches\transforms-3\5e9d0c7af3eaa8a12ea6723283efd2e3\transformed\jetified-checkout-1.6.12\AndroidManifest.xml:13:13-15:29
+479                <action android:name="rzp.device_token.share" />
+479-->[com.razorpay:checkout:1.6.12] C:\Users\nikhi\.gradle\caches\transforms-3\5e9d0c7af3eaa8a12ea6723283efd2e3\transformed\jetified-checkout-1.6.12\AndroidManifest.xml:14:17-65
+479-->[com.razorpay:checkout:1.6.12] C:\Users\nikhi\.gradle\caches\transforms-3\5e9d0c7af3eaa8a12ea6723283efd2e3\transformed\jetified-checkout-1.6.12\AndroidManifest.xml:14:25-62
+480            </intent-filter>
+481        </receiver>
+482
+483        <activity
+483-->[com.razorpay:checkout:1.6.12] C:\Users\nikhi\.gradle\caches\transforms-3\5e9d0c7af3eaa8a12ea6723283efd2e3\transformed\jetified-checkout-1.6.12\AndroidManifest.xml:18:9-29:20
+484            android:name="com.razorpay.CheckoutActivity"
+484-->[com.razorpay:checkout:1.6.12] C:\Users\nikhi\.gradle\caches\transforms-3\5e9d0c7af3eaa8a12ea6723283efd2e3\transformed\jetified-checkout-1.6.12\AndroidManifest.xml:19:13-57
+485            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+485-->[com.razorpay:checkout:1.6.12] C:\Users\nikhi\.gradle\caches\transforms-3\5e9d0c7af3eaa8a12ea6723283efd2e3\transformed\jetified-checkout-1.6.12\AndroidManifest.xml:20:13-83
+486            android:theme="@style/CheckoutTheme" >
+486-->[com.razorpay:checkout:1.6.12] C:\Users\nikhi\.gradle\caches\transforms-3\5e9d0c7af3eaa8a12ea6723283efd2e3\transformed\jetified-checkout-1.6.12\AndroidManifest.xml:21:13-49
+487            <intent-filter>
+487-->[com.razorpay:checkout:1.6.12] C:\Users\nikhi\.gradle\caches\transforms-3\5e9d0c7af3eaa8a12ea6723283efd2e3\transformed\jetified-checkout-1.6.12\AndroidManifest.xml:22:13-28:29
+488                <action android:name="android.intent.action.MAIN" />
+488-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:149:17-69
+488-->C:\Users\nikhi\Desktop\Gastos Provoider App\app\src\main\AndroidManifest.xml:149:25-66
+489
+490                <data
+490-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:15:13-42
+491                    android:host="rzp.io"
+492                    android:scheme="io.rzp" />
+492-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] C:\Users\nikhi\.gradle\caches\transforms-3\ae61e1393ecddd6ff1239ce654a8d6a6\transformed\jetified-EasyUpiPayment-3.0.3\AndroidManifest.xml:15:19-39
+493            </intent-filter>
+494        </activity>
+495
+496        <meta-data
+496-->[com.razorpay:checkout:1.6.12] C:\Users\nikhi\.gradle\caches\transforms-3\5e9d0c7af3eaa8a12ea6723283efd2e3\transformed\jetified-checkout-1.6.12\AndroidManifest.xml:31:9-33:58
+497            android:name="com.razorpay.plugin.googlepay_all"
+497-->[com.razorpay:checkout:1.6.12] C:\Users\nikhi\.gradle\caches\transforms-3\5e9d0c7af3eaa8a12ea6723283efd2e3\transformed\jetified-checkout-1.6.12\AndroidManifest.xml:32:13-61
+498            android:value="com.razorpay.RzpGpayMerged" /> <!-- Needs to be explicitly declared on P+ -->
+498-->[com.razorpay:checkout:1.6.12] C:\Users\nikhi\.gradle\caches\transforms-3\5e9d0c7af3eaa8a12ea6723283efd2e3\transformed\jetified-checkout-1.6.12\AndroidManifest.xml:33:13-55
+499        <uses-library
+499-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\nikhi\.gradle\caches\transforms-3\bb9b0c9988fe6aa6df8d22a419fa48fc\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+500            android:name="org.apache.http.legacy"
+500-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\nikhi\.gradle\caches\transforms-3\bb9b0c9988fe6aa6df8d22a419fa48fc\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
+501            android:required="false" />
+501-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\nikhi\.gradle\caches\transforms-3\bb9b0c9988fe6aa6df8d22a419fa48fc\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+502
+503        <activity
+503-->[com.cashfree.pg:core:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\f6406ba5ba6bdc5f4f9983d67b2ed01a\transformed\jetified-core-1.0.0\AndroidManifest.xml:28:9-33:53
+504            android:name="com.cashfree.pg.core.api.ui.CFCoreUPIPaymentActivity"
+504-->[com.cashfree.pg:core:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\f6406ba5ba6bdc5f4f9983d67b2ed01a\transformed\jetified-core-1.0.0\AndroidManifest.xml:29:13-80
+505            android:exported="false"
+505-->[com.cashfree.pg:core:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\f6406ba5ba6bdc5f4f9983d67b2ed01a\transformed\jetified-core-1.0.0\AndroidManifest.xml:30:13-37
+506            android:launchMode="singleTop"
+506-->[com.cashfree.pg:core:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\f6406ba5ba6bdc5f4f9983d67b2ed01a\transformed\jetified-core-1.0.0\AndroidManifest.xml:31:13-43
+507            android:screenOrientation="portrait"
+507-->[com.cashfree.pg:core:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\f6406ba5ba6bdc5f4f9983d67b2ed01a\transformed\jetified-core-1.0.0\AndroidManifest.xml:32:13-49
+508            android:theme="@style/CFCoreUPIStyle" />
+508-->[com.cashfree.pg:core:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\f6406ba5ba6bdc5f4f9983d67b2ed01a\transformed\jetified-core-1.0.0\AndroidManifest.xml:33:13-50
+509        <activity
+509-->[com.cashfree.pg:core:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\f6406ba5ba6bdc5f4f9983d67b2ed01a\transformed\jetified-core-1.0.0\AndroidManifest.xml:34:9-39:50
+510            android:name="com.cashfree.pg.core.api.ui.CashfreeCoreNativeVerificationActivity"
+510-->[com.cashfree.pg:core:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\f6406ba5ba6bdc5f4f9983d67b2ed01a\transformed\jetified-core-1.0.0\AndroidManifest.xml:35:13-94
+511            android:exported="false"
+511-->[com.cashfree.pg:core:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\f6406ba5ba6bdc5f4f9983d67b2ed01a\transformed\jetified-core-1.0.0\AndroidManifest.xml:36:13-37
+512            android:launchMode="singleTop"
+512-->[com.cashfree.pg:core:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\f6406ba5ba6bdc5f4f9983d67b2ed01a\transformed\jetified-core-1.0.0\AndroidManifest.xml:37:13-43
+513            android:screenOrientation="portrait"
+513-->[com.cashfree.pg:core:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\f6406ba5ba6bdc5f4f9983d67b2ed01a\transformed\jetified-core-1.0.0\AndroidManifest.xml:38:13-49
+514            android:theme="@style/CFCoreTheme" />
+514-->[com.cashfree.pg:core:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\f6406ba5ba6bdc5f4f9983d67b2ed01a\transformed\jetified-core-1.0.0\AndroidManifest.xml:39:13-47
+515
+516        <meta-data
+516-->[com.cashfree.pg:core:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\f6406ba5ba6bdc5f4f9983d67b2ed01a\transformed\jetified-core-1.0.0\AndroidManifest.xml:41:9-43:66
+517            android:name="cashfree_pg_logging_level"
+517-->[com.cashfree.pg:core:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\f6406ba5ba6bdc5f4f9983d67b2ed01a\transformed\jetified-core-1.0.0\AndroidManifest.xml:42:13-53
+518            android:value="@integer/cashfree_pg_logging_level" />
+518-->[com.cashfree.pg:core:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\f6406ba5ba6bdc5f4f9983d67b2ed01a\transformed\jetified-core-1.0.0\AndroidManifest.xml:43:13-63
+519
+520        <activity
+520-->[com.cashfree.pg:ui:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\2bc128fe95acfc80bc243a61de66d958\transformed\jetified-ui-1.0.0\AndroidManifest.xml:10:9-16:55
+521            android:name="com.cashfree.pg.ui.hidden.checkout.CashfreeNativeCheckoutActivity"
+521-->[com.cashfree.pg:ui:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\2bc128fe95acfc80bc243a61de66d958\transformed\jetified-ui-1.0.0\AndroidManifest.xml:11:13-93
+522            android:exported="false"
+522-->[com.cashfree.pg:ui:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\2bc128fe95acfc80bc243a61de66d958\transformed\jetified-ui-1.0.0\AndroidManifest.xml:12:13-37
+523            android:launchMode="singleTop"
+523-->[com.cashfree.pg:ui:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\2bc128fe95acfc80bc243a61de66d958\transformed\jetified-ui-1.0.0\AndroidManifest.xml:13:13-43
+524            android:screenOrientation="portrait"
+524-->[com.cashfree.pg:ui:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\2bc128fe95acfc80bc243a61de66d958\transformed\jetified-ui-1.0.0\AndroidManifest.xml:14:13-49
+525            android:theme="@style/CFUITheme"
+525-->[com.cashfree.pg:ui:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\2bc128fe95acfc80bc243a61de66d958\transformed\jetified-ui-1.0.0\AndroidManifest.xml:15:13-45
+526            android:windowSoftInputMode="adjustPan" />
+526-->[com.cashfree.pg:ui:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\2bc128fe95acfc80bc243a61de66d958\transformed\jetified-ui-1.0.0\AndroidManifest.xml:16:13-52
+527        <activity
+527-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\4e2ae97780b5191835e26d938e93f8e8\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+528            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+528-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\4e2ae97780b5191835e26d938e93f8e8\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+529            android:excludeFromRecents="true"
+529-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\4e2ae97780b5191835e26d938e93f8e8\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+530            android:exported="false"
+530-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\4e2ae97780b5191835e26d938e93f8e8\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+531            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+531-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\4e2ae97780b5191835e26d938e93f8e8\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+532        <!--
+533            Service handling Google Sign-In user revocation. For apps that do not integrate with
+534            Google Sign-In, this service will never be started.
+535        -->
+536        <service
+536-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\4e2ae97780b5191835e26d938e93f8e8\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+537            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+537-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\4e2ae97780b5191835e26d938e93f8e8\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+538            android:exported="true"
+538-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\4e2ae97780b5191835e26d938e93f8e8\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+539            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+539-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\4e2ae97780b5191835e26d938e93f8e8\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+540        <service
+540-->[com.google.android.gms:play-services-mlkit-barcode-scanning:17.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\d9a6f4a0e8998d34415655665e22fa37\transformed\jetified-play-services-mlkit-barcode-scanning-17.0.0\AndroidManifest.xml:9:9-15:19
+541            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+541-->[com.google.android.gms:play-services-mlkit-barcode-scanning:17.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\d9a6f4a0e8998d34415655665e22fa37\transformed\jetified-play-services-mlkit-barcode-scanning-17.0.0\AndroidManifest.xml:10:13-91
+542            android:directBootAware="true"
+542-->[com.google.mlkit:common:17.5.0] C:\Users\nikhi\.gradle\caches\transforms-3\a857f9a792dc192e27221ea0192573ae\transformed\jetified-common-17.5.0\AndroidManifest.xml:17:13-43
+543            android:exported="false" >
+543-->[com.google.android.gms:play-services-mlkit-barcode-scanning:17.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\d9a6f4a0e8998d34415655665e22fa37\transformed\jetified-play-services-mlkit-barcode-scanning-17.0.0\AndroidManifest.xml:11:13-37
+544            <meta-data
+544-->[com.google.android.gms:play-services-mlkit-barcode-scanning:17.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\d9a6f4a0e8998d34415655665e22fa37\transformed\jetified-play-services-mlkit-barcode-scanning-17.0.0\AndroidManifest.xml:12:13-14:85
+545                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+545-->[com.google.android.gms:play-services-mlkit-barcode-scanning:17.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\d9a6f4a0e8998d34415655665e22fa37\transformed\jetified-play-services-mlkit-barcode-scanning-17.0.0\AndroidManifest.xml:13:17-120
+546                android:value="com.google.firebase.components.ComponentRegistrar" />
+546-->[com.google.android.gms:play-services-mlkit-barcode-scanning:17.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\d9a6f4a0e8998d34415655665e22fa37\transformed\jetified-play-services-mlkit-barcode-scanning-17.0.0\AndroidManifest.xml:14:17-82
+547            <meta-data
+547-->[com.google.mlkit:vision-common:16.7.0] C:\Users\nikhi\.gradle\caches\transforms-3\65e929536f6d60945a2df1b1ac7aef4d\transformed\jetified-vision-common-16.7.0\AndroidManifest.xml:12:13-14:85
+548                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+548-->[com.google.mlkit:vision-common:16.7.0] C:\Users\nikhi\.gradle\caches\transforms-3\65e929536f6d60945a2df1b1ac7aef4d\transformed\jetified-vision-common-16.7.0\AndroidManifest.xml:13:17-124
+549                android:value="com.google.firebase.components.ComponentRegistrar" />
+549-->[com.google.mlkit:vision-common:16.7.0] C:\Users\nikhi\.gradle\caches\transforms-3\65e929536f6d60945a2df1b1ac7aef4d\transformed\jetified-vision-common-16.7.0\AndroidManifest.xml:14:17-82
+550            <meta-data
+550-->[com.google.mlkit:common:17.5.0] C:\Users\nikhi\.gradle\caches\transforms-3\a857f9a792dc192e27221ea0192573ae\transformed\jetified-common-17.5.0\AndroidManifest.xml:20:13-22:85
+551                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+551-->[com.google.mlkit:common:17.5.0] C:\Users\nikhi\.gradle\caches\transforms-3\a857f9a792dc192e27221ea0192573ae\transformed\jetified-common-17.5.0\AndroidManifest.xml:21:17-120
+552                android:value="com.google.firebase.components.ComponentRegistrar" />
+552-->[com.google.mlkit:common:17.5.0] C:\Users\nikhi\.gradle\caches\transforms-3\a857f9a792dc192e27221ea0192573ae\transformed\jetified-common-17.5.0\AndroidManifest.xml:22:17-82
+553        </service>
+554
+555        <provider
+555-->[com.google.mlkit:common:17.5.0] C:\Users\nikhi\.gradle\caches\transforms-3\a857f9a792dc192e27221ea0192573ae\transformed\jetified-common-17.5.0\AndroidManifest.xml:9:9-13:38
+556            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+556-->[com.google.mlkit:common:17.5.0] C:\Users\nikhi\.gradle\caches\transforms-3\a857f9a792dc192e27221ea0192573ae\transformed\jetified-common-17.5.0\AndroidManifest.xml:10:13-78
+557            android:authorities="com.cu.gastosmerchant1.mlkitinitprovider"
+557-->[com.google.mlkit:common:17.5.0] C:\Users\nikhi\.gradle\caches\transforms-3\a857f9a792dc192e27221ea0192573ae\transformed\jetified-common-17.5.0\AndroidManifest.xml:11:13-69
+558            android:exported="false"
+558-->[com.google.mlkit:common:17.5.0] C:\Users\nikhi\.gradle\caches\transforms-3\a857f9a792dc192e27221ea0192573ae\transformed\jetified-common-17.5.0\AndroidManifest.xml:12:13-37
+559            android:initOrder="99" />
+559-->[com.google.mlkit:common:17.5.0] C:\Users\nikhi\.gradle\caches\transforms-3\a857f9a792dc192e27221ea0192573ae\transformed\jetified-common-17.5.0\AndroidManifest.xml:13:13-35
+560
+561        <activity
+561-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\bc1b818dfa21c15fd63406de895cb00a\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+562            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+562-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\bc1b818dfa21c15fd63406de895cb00a\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+563            android:exported="false"
+563-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\bc1b818dfa21c15fd63406de895cb00a\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+564            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+564-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\nikhi\.gradle\caches\transforms-3\bc1b818dfa21c15fd63406de895cb00a\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+565
+566        <provider
+566-->[com.google.firebase:firebase-common:20.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\c785ce12f06099c3c4721c8dcfc9c75c\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+567            android:name="com.google.firebase.provider.FirebaseInitProvider"
+567-->[com.google.firebase:firebase-common:20.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\c785ce12f06099c3c4721c8dcfc9c75c\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+568            android:authorities="com.cu.gastosmerchant1.firebaseinitprovider"
+568-->[com.google.firebase:firebase-common:20.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\c785ce12f06099c3c4721c8dcfc9c75c\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+569            android:directBootAware="true"
+569-->[com.google.firebase:firebase-common:20.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\c785ce12f06099c3c4721c8dcfc9c75c\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+570            android:exported="false"
+570-->[com.google.firebase:firebase-common:20.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\c785ce12f06099c3c4721c8dcfc9c75c\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+571            android:initOrder="100" />
+571-->[com.google.firebase:firebase-common:20.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\c785ce12f06099c3c4721c8dcfc9c75c\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+572
+573        <meta-data
+573-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\f5b70bc841f04883ba55d623fb1fe971\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+574            android:name="com.google.android.gms.version"
+574-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\f5b70bc841f04883ba55d623fb1fe971\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+575            android:value="@integer/google_play_services_version" />
+575-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\f5b70bc841f04883ba55d623fb1fe971\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+576
+577        <provider
+577-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\9d7fdd7397556082e2208cc61817a053\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+578            android:name="androidx.startup.InitializationProvider"
+578-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\9d7fdd7397556082e2208cc61817a053\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+579            android:authorities="com.cu.gastosmerchant1.androidx-startup"
+579-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\9d7fdd7397556082e2208cc61817a053\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+580            android:exported="false" >
+580-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\9d7fdd7397556082e2208cc61817a053\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+581            <meta-data
+581-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\9d7fdd7397556082e2208cc61817a053\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+582                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+582-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\9d7fdd7397556082e2208cc61817a053\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+583                android:value="androidx.startup" />
+583-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\9d7fdd7397556082e2208cc61817a053\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+584            <meta-data
+584-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\nikhi\.gradle\caches\transforms-3\df92be072a2a7aaaefac77e6350e86b8\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+585                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+585-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\nikhi\.gradle\caches\transforms-3\df92be072a2a7aaaefac77e6350e86b8\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+586                android:value="androidx.startup" />
+586-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\nikhi\.gradle\caches\transforms-3\df92be072a2a7aaaefac77e6350e86b8\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+587        </provider>
+588
+589        <service
+589-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\12a23eb42bd1d5316bf5f93bf7fec461\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:29:9-35:19
+590            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+590-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\12a23eb42bd1d5316bf5f93bf7fec461\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:30:13-103
+591            android:exported="false" >
+591-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\12a23eb42bd1d5316bf5f93bf7fec461\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:31:13-37
+592            <meta-data
+592-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\12a23eb42bd1d5316bf5f93bf7fec461\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:32:13-34:39
+593                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+593-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\12a23eb42bd1d5316bf5f93bf7fec461\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:33:17-94
+594                android:value="cct" />
+594-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\12a23eb42bd1d5316bf5f93bf7fec461\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:34:17-36
+595        </service>
+596        <service
+596-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\8937a43eca9b7a5cfc16123b7b01d89b\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:26:9-30:19
+597            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+597-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\8937a43eca9b7a5cfc16123b7b01d89b\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:27:13-117
+598            android:exported="false"
+598-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\8937a43eca9b7a5cfc16123b7b01d89b\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:28:13-37
+599            android:permission="android.permission.BIND_JOB_SERVICE" >
+599-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\8937a43eca9b7a5cfc16123b7b01d89b\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:29:13-69
+600        </service>
+601
+602        <receiver
+602-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\8937a43eca9b7a5cfc16123b7b01d89b\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:32:9-34:40
+603            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+603-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\8937a43eca9b7a5cfc16123b7b01d89b\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:33:13-132
+604            android:exported="false" />
+604-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\nikhi\.gradle\caches\transforms-3\8937a43eca9b7a5cfc16123b7b01d89b\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:34:13-37
+605    </application>
+606
+607</manifest>

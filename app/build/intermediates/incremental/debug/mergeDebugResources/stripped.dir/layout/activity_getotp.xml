@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".registration.Getotp_activity">
+
+   <ScrollView
+       android:fillViewport="true"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <RelativeLayout
+           android:id="@+id/component"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <View
+               android:id="@+id/layer_3"
+               android:layout_width="198dp"
+               android:layout_height="242dp"
+               android:layout_alignParentEnd="true"
+               android:layout_alignParentRight="true"
+               android:background="@drawable/hweb" />
+
+           <Button
+               android:id="@+id/resend_otp"
+               android:layout_width="100dp"
+               android:layout_height="35dp"
+
+               android:layout_below="@id/linear_layout"
+               android:layout_alignRight="@id/layer_3"
+               android:background="@drawable/rect_2"
+               android:elevation="10dp"
+               android:text="@string/resend_otp"
+               android:textAppearance="@style/resend_otp1"
+               android:textColor="#818181"
+               android:textSize="12sp"
+               android:visibility="gone" />
+
+           <TextView
+               android:id="@+id/verify"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentTop="true"
+               android:layout_centerHorizontal="true"
+               android:layout_marginStart="142dp"
+               android:layout_marginLeft="142dp"
+               android:layout_marginTop="27dp"
+               android:fontFamily="@font/futurapt_demi"
+               android:gravity="top"
+               android:maxLines="1"
+               android:text="@string/verify"
+               android:textColor="#004445"
+               android:textSize="25sp" />
+
+           <TextView
+               android:id="@+id/t1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/verify"
+               android:layout_alignParentStart="true"
+               android:layout_alignParentLeft="true"
+               android:layout_marginStart="85dp"
+               android:layout_marginLeft="85dp"
+               android:layout_marginTop="110dp"
+               android:fontFamily="@font/futurapt_medium"
+               android:text="@string/sent_otp"
+               android:textColor="#004445"
+               android:textSize="18sp" />
+
+           <TextView
+               android:id="@+id/t2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/t1"
+               android:layout_alignParentStart="true"
+               android:layout_alignParentLeft="true"
+               android:layout_marginStart="95dp"
+               android:layout_marginLeft="95dp"
+               android:layout_marginTop="0dp"
+               android:fontFamily="@font/futurapt_medium"
+               android:text="@string/no_nine_one"
+               android:textColor="#004445"
+               android:textSize="18sp" />
+
+           <TextView
+               android:id="@+id/pho_number"
+               android:layout_width="127dp"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/t1"
+               android:layout_marginStart="5dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginTop="0dp"
+               android:layout_toEndOf="@+id/t2"
+               android:layout_toRightOf="@+id/t2"
+               android:fontFamily="@font/futurapt_medium"
+               android:textColor="#004445"
+               android:text="@string/textview"
+               android:textSize="20sp" />
+
+           <View
+               android:id="@+id/dash"
+               android:layout_width="8.69dp"
+               android:layout_height="1.5dp"
+               android:layout_below="@id/linear_layout"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="-57dp"
+               android:background="@drawable/line_51"
+               android:elevation="5dp" />
+
+           <LinearLayout
+               android:id="@+id/linear_layout"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/t2"
+               android:layout_centerHorizontal="true"
+               android:layout_marginStart="30dp"
+               android:layout_marginTop="35dp"
+               android:layout_marginEnd="30dp"
+               android:layout_marginBottom="20dp"
+               android:background="@drawable/border_rect"
+               android:orientation="horizontal">
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginRight="20dp"
+                   android:layout_marginBottom="10dp"
+                   android:orientation="horizontal">
+
+                   <EditText
+                       android:id="@+id/edit_text_1"
+                       android:layout_width="60dp"
+                       android:layout_height="50dp"
+                       android:layout_marginEnd="12dp"
+                       android:layout_marginRight="12dp"
+                       android:layout_weight="1"
+                       android:background="@drawable/otp_verification_box"
+                       android:gravity="center"
+                       android:inputType="number"
+                       android:maxLength="1"
+                       android:textSize="16dp" />
+
+                   <EditText
+                       android:id="@+id/edit_text_2"
+                       android:layout_width="60dp"
+                       android:layout_height="50dp"
+                       android:layout_marginEnd="12dp"
+                       android:layout_marginRight="12dp"
+                       android:layout_weight="1"
+                       android:background="@drawable/otp_verification_box"
+                       android:gravity="center"
+                       android:inputType="number"
+                       android:maxLength="1"
+                       android:textSize="16dp" />
+
+                   <EditText
+                       android:id="@+id/edit_text_3"
+                       android:layout_width="60dp"
+                       android:layout_height="50dp"
+                       android:layout_marginEnd="12dp"
+                       android:layout_marginRight="12dp"
+                       android:layout_weight="1"
+                       android:background="@drawable/otp_verification_box"
+                       android:gravity="center"
+                       android:inputType="number"
+                       android:maxLength="1"
+                       android:textSize="16dp" />
+
+                   <View
+                       android:layout_width="20dp"
+                       android:layout_height="20dp"
+                       android:layout_gravity="center"
+                       android:layout_marginLeft="5dp"
+                       android:layout_marginRight="5dp"
+                       android:background="@drawable/border_rect" />
+
+                   <EditText
+                       android:id="@+id/edit_text_4"
+                       android:layout_width="60dp"
+                       android:layout_height="50dp"
+                       android:layout_marginEnd="12dp"
+                       android:layout_marginRight="12dp"
+                       android:layout_weight="1"
+                       android:background="@drawable/otp_verification_box"
+                       android:gravity="center"
+                       android:inputType="number"
+                       android:maxLength="1"
+                       android:textSize="16dp" />
+
+                   <EditText
+                       android:id="@+id/edit_text_5"
+                       android:layout_width="60dp"
+                       android:layout_height="50dp"
+                       android:layout_marginRight="12dp"
+                       android:layout_weight="1"
+                       android:background="@drawable/otp_verification_box"
+                       android:gravity="center"
+                       android:inputType="number"
+                       android:maxLength="1"
+                       android:textSize="16dp" />
+
+                   <EditText
+                       android:id="@+id/edit_text_6"
+                       android:layout_width="60dp"
+                       android:layout_height="50dp"
+                       android:layout_weight="1"
+                       android:background="@drawable/otp_verification_box"
+                       android:gravity="center"
+                       android:inputType="number"
+                       android:maxLength="1"
+                       android:textSize="16dp" />
+
+               </LinearLayout>
+
+               <!--               <com.cu.gastosmerchant1.Utils.OtpEditText-->
+               <!--                   android:id="@+id/et_otp"-->
+               <!--                   android:layout_width="match_parent"-->
+               <!--                   android:layout_height="wrap_content"-->
+               <!--                   android:layout_margin="20dp"-->
+               <!--                   android:background="@drawable/border_rect"-->
+               <!--                   android:cursorVisible="true"-->
+               <!--                   android:textCursorDrawable="@null"-->
+               <!--                   android:digits="1234567890"-->
+               <!--                   android:inputType="number"-->
+               <!--                   android:maxLength="6"-->
+
+               <!--                   android:textIsSelectable="false"-->
+               <!--                   android:textSize="20sp" />-->
+
+           </LinearLayout>
+
+
+           <TextView
+               android:id="@+id/timer"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/linear_layout"
+               android:layout_alignRight="@id/linear_layout"
+               android:layout_marginRight="10dp"
+               android:fontFamily="@font/futurapt_medium"
+               android:text="123213212"
+               android:textColor="#004445"
+               android:textSize="18sp" />
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentEnd="true"
+               android:layout_alignParentRight="true"
+               android:layout_alignParentBottom="true"
+               android:layout_marginEnd="25dp"
+               android:layout_marginRight="25dp"
+               android:layout_marginBottom="40dp"
+               android:elevation="16dp"
+               app:cardCornerRadius="30dp"
+               app:cardElevation="10dp">
+
+               <Button
+                   android:enabled="false"
+                   android:id="@+id/otp_btn1"
+                   android:layout_width="55dp"
+                   android:layout_height="55dp"
+                   android:background="@drawable/pageforward"
+                   android:contentDescription="@string/todo" />
+           </androidx.cardview.widget.CardView>
+
+           <ProgressBar
+               android:id="@+id/pBar"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:layout_marginTop="30dp"
+               android:layout_below="@id/linear_layout"
+               android:layout_centerInParent="true"
+               android:visibility="gone" />
+
+           <ImageView
+               android:id="@+id/prev"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="16dp"
+               android:layout_marginTop="25dp"
+               android:padding="10dp"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toTopOf="parent"
+               app:srcCompat="@drawable/ic_back" />
+       </RelativeLayout>
+   </ScrollView>
+
+</RelativeLayout>

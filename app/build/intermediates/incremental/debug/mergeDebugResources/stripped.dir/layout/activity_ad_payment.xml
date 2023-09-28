@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".settings.postAds.ad_payment">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_back" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/futurapt_bold"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="@string/payment"
+        android:textColor="@color/gastos_green"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/bg_next"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="10dp"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/futurapt_bold"
+                android:text="@string/your_campaign_will_be_live_in_next_24_48_hrs_nreach_expected_4000_customers"
+                android:backgroundTint="@color/green_text"/>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardVie3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/stroke_select"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/select"
+                    android:layout_gravity="center_horizontal"
+                    >
+
+                    <TextView
+                        android:id="@+id/est"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/futurapt_medium"
+                        android:gravity="start"
+                        android:visibility="gone"
+                        android:text="@string/discount"
+                        android:textColor="#595959"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toStartOf="@+id/total"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/num" />
+
+                    <TextView
+                        android:id="@+id/total"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:visibility="gone"
+                        android:fontFamily="@font/futurapt_medium"
+                        android:gravity="center"
+                        tools:text="-600.00"
+                        android:textColor="#2D796D"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toEndOf="@+id/serv_total"
+                        app:layout_constraintTop_toTopOf="@+id/est" />
+
+                    <TextView
+                        android:id="@+id/num"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/futurapt_medium"
+                        android:gravity="start"
+                        android:text="@string/service_charge"
+                        android:textColor="#595959"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toStartOf="@+id/serv_total"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/serv_total"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginEnd="20dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/futurapt_medium"
+                        android:gravity="start"
+                        android:textColor="#595959"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/num"
+                        tools:text="₹2000.00" />
+
+                    <TextView
+                        android:id="@+id/gst_txt"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/futurapt_medium"
+                        android:gravity="start"
+                        android:text="@string/gst"
+                        android:textColor="#595959"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toStartOf="@+id/gst_amt"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/est" />
+
+                    <TextView
+                        android:id="@+id/gst_amt"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/futurapt_medium"
+                        android:gravity="center"
+                        android:textColor="#595959"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toEndOf="@+id/serv_total"
+                        app:layout_constraintTop_toTopOf="@+id/gst_txt"
+                        tools:text="₹21.42" />
+
+                    <TextView
+                        android:id="@+id/audi_age"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/futurapt_medium"
+                        android:text="@string/use_wallet_for_discount"
+                        android:textColor="#595959"
+                        android:textSize="18sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/gst_txt" />
+
+                    <TextView
+                        android:id="@+id/balance_wallet"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="30dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/futurapt_medium"
+                        android:gravity="center"
+                        android:textColor="#2D796D"
+                        android:textSize="14sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="@+id/audi_age"
+                        app:layout_constraintTop_toBottomOf="@+id/audi_age"
+                        tools:text="Balance: 600" />
+
+                    <Switch
+                        android:id="@+id/switch_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:textOff="OFF"
+                        android:textOn="ON"
+                        android:thumb="@drawable/thumb_switch"
+                        app:layout_constraintBottom_toBottomOf="@+id/balance_wallet"
+                        app:layout_constraintEnd_toEndOf="@+id/gst_amt"
+                        app:layout_constraintTop_toTopOf="@+id/audi_age"
+                        tools:ignore="UseSwitchCompatOrMaterialXml" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/bg_down"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <TextView
+            android:id="@+id/wallet_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/futurapt_medium"
+            android:text="@string/amount_to_pay"
+            android:textColor="@color/bg_linear_wallet"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/total_amt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wallet_text"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/futurapt_medium"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/wallet_text"
+            android:layout_alignBottom="@+id/total_amt"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/bg_next"
+            android:fontFamily="@font/futurapt_medium"
+            android:gravity="center"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:text="@string/pay"
+            android:textColor="@color/gastos_green"
+            android:textSize="17sp" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,498 @@
+[
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_user_agreement.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_user_agreement.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/campaign_cost.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/campaign_cost.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/unedited_home.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/unedited_home.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/provider_wallet.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/provider_wallet.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_help_centre.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_help_centre.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/hpdialog.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/hpdialog.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/grevieance_policy.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/grevieance_policy.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/campaign_bill_payment.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/campaign_bill_payment.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_refer_and_earn.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_refer_and_earn.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_acc_settings.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_acc_settings.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/my_designs_approve.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/my_designs_approve.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/setting_item_layout.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/setting_item_layout.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/new_campaign_details.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/new_campaign_details.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/select_package.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/select_package.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/loading_gastos.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/loading_gastos.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/privacy_policy.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/privacy_policy.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/discount.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/discount.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/new_welcome.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/new_welcome.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_manage_design.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_manage_design.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/profile_details.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/profile_details.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/select_services.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/select_services.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/payment_detail.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/payment_detail.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/dialog_camera.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/dialog_camera.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/user_rv_item.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/user_rv_item.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_cash_free.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_cash_free.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_budget.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_budget.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_registration_payment.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_registration_payment.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_manage_ads.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_manage_ads.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_generate_qr.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_generate_qr.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/unedited_profile_details.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/unedited_profile_details.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/dialog_rate.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/dialog_rate.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/margindialog.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/margindialog.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_contact_us.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_contact_us.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/my_promotion.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/my_promotion.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/new_home.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/new_home.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_provider_wallet2.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_provider_wallet2.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/layout_dialog.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/layout_dialog.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/qr_codes.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/qr_codes.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/generate_qr.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/generate_qr.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/faqs.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/faqs.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_demo_message.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_demo_message.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_payment_status2.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_payment_status2.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/logout_alert_dialog.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/logout_alert_dialog.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_getotp.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_getotp.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_post_ads.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_post_ads.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/setting_card_layour.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/setting_card_layour.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_ad_content.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_ad_content.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_payment.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_payment.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_post_audience.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_post_audience.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/transaction_details.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/transaction_details.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_membership_status.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_membership_status.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/view_qr.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/view_qr.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/updated_home.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/updated_home.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_provider_wallet.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_provider_wallet.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_home.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/dialog_report.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/dialog_report.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_shop_setting.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_shop_setting.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/textlayout.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/textlayout.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_onboarded.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_onboarded.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/my_design.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/my_design.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/my_discount.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/my_discount.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/guide.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/guide.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_request_design.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_request_design.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/membership_status.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/membership_status.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_setpin.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_setpin.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/select_content.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/select_content.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/branding.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/branding.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/temps.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/temps.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/user_agreement.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/user_agreement.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/new_select_package.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/new_select_package.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/bottomsheet_dialog.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/bottomsheet_dialog.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/select_promotion.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/select_promotion.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_main.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/refer_and_earn.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/refer_and_earn.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/help_and_support.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/help_and_support.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_q_r_scanner.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_q_r_scanner.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/add_discount.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/add_discount.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/settings.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/settings.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/layout_payments.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/layout_payments.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_settings.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_registration_pay.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_registration_pay.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/bill_payment.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/bill_payment.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_recvd_paymt.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_recvd_paymt.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/qr_layout.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/qr_layout.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_membership.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_membership.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_pymtdialog.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_pymtdialog.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/recent_payment_card.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/recent_payment_card.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_payment_status.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_payment_status.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/dialog_picture_capture.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/dialog_picture_capture.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_basic_details.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_basic_details.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/dialog_primary.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/dialog_primary.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/scanner.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/scanner.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/terms_of_service.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/terms_of_service.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/shop_address.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/shop_address.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_pay_screen.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_pay_screen.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_payment_web.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_payment_web.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_report_problem.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_report_problem.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/about_us.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/about_us.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/layout_item_commision.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/layout_item_commision.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_add_qr.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_add_qr.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/discount_item.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/discount_item.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_commission.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_commission.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/about_gastos.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/about_gastos.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/payment_successful.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/payment_successful.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_pymt_info.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_pymt_info.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/item_pager.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/item_pager.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/campaign_payment.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/campaign_payment.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_confirmation.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_confirmation.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/qrview.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/qrview.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/choose_membership.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/choose_membership.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_ad_payment.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_ad_payment.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_privacy_policy_web.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_privacy_policy_web.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/report_an_issue.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/report_an_issue.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/select_banner_design.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/select_banner_design.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_bill_payment.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_bill_payment.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_about_us.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_about_us.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/dialog_payment_info.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/dialog_payment_info.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_terms_of_service.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_terms_of_service.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/alertdialog_setprimary.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/alertdialog_setprimary.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/qr_item.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/qr_item.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_phone_authentication.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_phone_authentication.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/received_payments.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/received_payments.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/payment_loading.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/payment_loading.xml"
+    },
+    {
+        "merged": "com.cu.gastosmerchant1.app-mergeDebugResources-62:/layout/activity_branding_wallet.xml",
+        "source": "com.cu.gastosmerchant1.app-main-65:/layout/activity_branding_wallet.xml"
+    }
+]

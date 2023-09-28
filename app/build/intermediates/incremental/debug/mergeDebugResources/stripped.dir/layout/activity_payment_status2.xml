@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/relativeLayout"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PaymentStatus">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- change the background of relative layout
+             to red_gradient for red background[Payment Failed]
+             and green_gradient for green background[Payment Success]-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start"
+            android:paddingBottom="20dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/backhome"
+                android:layout_width="22.5dp"
+                android:layout_height="15dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="28dp"
+                android:visibility="invisible"
+                android:background="@drawable/chevronblackleft" />
+
+            <!--        change visibility of info to gone for payment
+                        success and failed-->
+            <ImageButton
+                android:id="@+id/info"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginBottom="18dp"
+                android:background="@drawable/info_img" />
+
+            <TextView
+                android:id="@+id/payment_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/backhome"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="45dp"
+                android:fontFamily="@font/roboto"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+
+            <RelativeLayout
+                android:id="@+id/bill_info"
+                android:layout_width="351dp"
+                android:layout_height="541dp"
+                android:layout_below="@id/payment_msg"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="52dp"
+                android:background="@drawable/receipt_image">
+
+                <LinearLayout
+                    android:id="@+id/amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="77dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/bill_amount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:text="Payment Total"
+                        android:textColor="#9fa2ab"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/amounttv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:textColor="#1d1b23"
+                        android:textSize="38sp"
+                        android:textStyle="bold"
+                        tools:text="\u20B9 599.00" />
+
+                    <TextView
+                        android:id="@+id/activationTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/roboto"
+                        android:textColor="#000000"
+                        android:textSize="32sp"
+                        tools:text="Activated" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/amount"
+                    android:layout_marginStart="19dp"
+                    android:layout_marginTop="25dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="@font/roboto"
+                        android:gravity="start"
+                        android:text="Date"
+                        android:textColor="#9FA2AB"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="@font/roboto"
+                        android:gravity="start"
+                        android:text="Time"
+                        android:textColor="#9FA2AB"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_below="@+id/ll1"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/dotted" />
+
+                <LinearLayout
+                    android:id="@+id/ll2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view"
+                    android:layout_marginStart="19dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/service_chargeTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:fontFamily="@font/roboto"
+                        android:gravity="start"
+                        android:text="Service Charge"
+                        android:textColor="#9FA2AB"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/tittle_saving"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="@font/roboto"
+                        android:gravity="start"
+                        android:text="Savings"
+                        android:textColor="#9FA2AB"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/gstTax"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="@font/roboto"
+                        android:gravity="start"
+                        android:text="GST"
+                        android:textColor="#9FA2AB"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/amount"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="19dp"
+                    android:gravity="end"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="17dp"
+                        android:fontFamily="@font/roboto"
+                        android:textColor="#1D1B23"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="17dp"
+                        android:fontFamily="@font/roboto"
+                        android:textColor="#1D1B23"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/ll4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="19dp"
+                    android:gravity="end"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/service_charge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:fontFamily="@font/roboto"
+                        android:maxLines="1"
+                        android:textColor="#1D1B23"
+                        android:textSize="14sp"
+                        tools:text="₹ 2000" />
+
+                    <TextView
+                        android:id="@+id/savings"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="17dp"
+                        android:fontFamily="@font/roboto"
+                        android:maxLines="1"
+                        android:textColor="#79BF2E"
+                        android:textSize="14sp"
+                        tools:text="-₹ 600" />
+
+                    <TextView
+                        android:id="@+id/gst"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="17dp"
+                        android:fontFamily="@font/roboto"
+                        android:maxLines="1"
+                        android:textColor="#1D1B23"
+                        android:textSize="14sp"
+                        tools:text="₹ 360" />
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <!--change visibility of this image as per the
+                payment status
+                pymnt_succes.png for successful and
+                pymnt_failed.png for failed -->
+
+            <ImageView
+                android:id="@+id/payment_status_img"
+                android:layout_width="89dp"
+                android:layout_height="89dp"
+                android:layout_alignTop="@+id/bill_info"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-42dp" />
+
+            <!--change visibility of this retry to gone if the payment is succesful -->
+
+            <TextView
+                android:id="@+id/retry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bill_info"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/roboto"
+                android:text="Retry"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/jumpToHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/retry"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="35dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/btn_bg"
+                android:fontFamily="@font/roboto"
+                android:text="Jump to Home"
+                android:textColor="#004445"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

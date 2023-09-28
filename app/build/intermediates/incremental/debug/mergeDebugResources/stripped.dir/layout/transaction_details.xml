@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingStart="20dp"
+    android:paddingTop="10dp"
+    android:scrollbars="none"
+    android:paddingBottom="20dp"
+    android:paddingEnd="20dp"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/ic_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="todo" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="start"
+        android:text="@string/transaction_details"
+        android:textColor="#212121"
+        android:textFontWeight="700"
+        android:fontFamily="@font/plusjakartasansregular"
+        android:textSize="32sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/plusjakartasansregular"
+        android:textFontWeight="500"
+        android:gravity="start"
+        android:text="@string/view_details_of_transaction"
+        android:textColor="#909090"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_layout"
+        android:orientation="vertical"
+        android:padding="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/plusjakartasansregular"
+                android:gravity="start"
+                android:text="@string/amount_received"
+                android:textColor="#909090"
+                android:textFontWeight="700"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/plusjakartasansregular"
+                android:gravity="start"
+                android:text="₹1022.00"
+                android:textColor="#181818"
+                android:layout_marginTop="8dp"
+                android:textFontWeight="700"
+                android:textSize="32sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/heading" />
+
+            <ImageView
+                android:id="@+id/payment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:contentDescription="todo"
+                android:src="@drawable/ic_payment_done"
+                app:layout_constraintBottom_toBottomOf="@+id/amount"
+                app:layout_constraintStart_toEndOf="@+id/amount"
+                app:layout_constraintTop_toTopOf="@+id/amount" />
+
+            <TextView
+                android:id="@+id/in_words"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:fontFamily="@font/plusjakartasansregular"
+                android:textFontWeight="500"
+                android:gravity="start"
+                android:text="@string/rupees_one_thousand_twenty_two_only"
+                android:textColor="#909090"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/amount" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/plusjakartasansregular"
+                android:textFontWeight="500"
+                android:gravity="start"
+                android:text="@string/paid_at_05_02_pm_01_may_2022"
+                android:textColor="#212121"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/in_words" />
+
+
+            <TextView
+                android:id="@+id/paid_by"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/plusjakartasansregular"
+                android:textFontWeight="700"
+                android:gravity="start"
+                android:text="@string/paid_by"
+                android:textColor="#909090"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/time" />
+
+            <TextView
+                android:id="@+id/paid_by_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/plusjakartasansregular"
+                android:gravity="end"
+                android:text="@string/basant_kumar"
+                android:textColor="#212121"
+                android:textFontWeight="700"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@id/paid_by"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/paid_by" />
+
+            <TextView
+                android:id="@+id/paid_with"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/plusjakartasansregular"
+                android:textFontWeight="700"
+                android:gravity="start"
+                android:text="@string/paid_with"
+                android:textColor="#909090"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/paid_by" />
+
+            <ImageView
+                android:id="@+id/paid_with_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="todo"
+                android:src="@drawable/ic_gpay"
+                app:layout_constraintBottom_toBottomOf="@+id/paid_with"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/paid_with" />
+
+            <TextView
+                android:id="@+id/paid_at"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/plusjakartasansregular"
+                android:textFontWeight="700"
+                android:gravity="start"
+                android:text="@string/paid_at"
+                android:textColor="#909090"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/paid_with" />
+
+            <ImageView
+                android:id="@+id/paid_at_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="todo"
+                android:src="@drawable/ic_gpay"
+                app:layout_constraintBottom_toBottomOf="@+id/paid_at"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/paid_at" />
+
+
+            <TextView
+                android:id="@+id/bill_amt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/plusjakartasansregular"
+                android:textFontWeight="700"
+                android:gravity="start"
+                android:text="@string/billed_amount"
+                android:textColor="#909090"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/paid_at" />
+
+            <TextView
+                android:id="@+id/bill_amt_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/plusjakartasansregular"
+                android:gravity="end"
+                android:text="@string/_1200_00"
+                android:textColor="#212121"
+                android:textFontWeight="700"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@id/bill_amt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/bill_amt" />
+
+            <TextView
+                android:id="@+id/discount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/plusjakartasansregular"
+                android:textFontWeight="700"
+                android:gravity="start"
+                android:text="@string/discount_offered"
+                android:textColor="#909090"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bill_amt" />
+
+            <TextView
+                android:id="@+id/discount_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/plusjakartasansregular"
+                android:gravity="end"
+                android:text="@string/_178_00"
+                android:textColor="#212121"
+                android:textFontWeight="700"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@id/discount"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/discount" />
+
+            <TextView
+                android:id="@+id/amt_receive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/plusjakartasansregular"
+                android:textFontWeight="700"
+                android:gravity="start"
+                android:text="@string/amount_received"
+                android:textColor="#909090"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/discount" />
+
+            <TextView
+                android:id="@+id/amt_receive_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/plusjakartasansregular"
+                android:gravity="end"
+                android:text="@string/_1022_00"
+                android:textColor="#212121"
+                android:textFontWeight="700"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@id/amt_receive"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/amt_receive" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
